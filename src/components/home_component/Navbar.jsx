@@ -23,9 +23,6 @@ export default function Navbar() {
           />
         </svg>
       </div>
-      <div className="img-slider bg-green-100">
-        <img />
-      </div>
     </div>
   );
 }
