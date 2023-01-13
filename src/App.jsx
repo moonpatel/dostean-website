@@ -1,10 +1,12 @@
 import './App.css'
+import Home from './components/home'
 
 function App() {
 
     return (
-        <div className=''>Hello</div>
-    )
+                // <Route path="home" component={Home} /> 
+                <Home/>  
+    );
 }
 
 export default App
