@@ -1,7 +1,7 @@
 import React from "react";
-import Img from "../images/i1.jpg";
 import CafeImage from "../images/i2.jpg";
 import LocationDetails from "../LocationDetails";
+
 export default function Middle() {
     return (
         <div>
