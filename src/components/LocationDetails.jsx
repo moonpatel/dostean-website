@@ -1,12 +1,13 @@
 import React from 'react'
+import GifMap from './images/map-locator.gif'
 
 const LocationDetails = () => {
     // const map = document.querySelector('#map')
     return (
-        <div className="address mt-4">
-            <div className="flex mx-20">
-                {/* <img src="" alt="gif" className="w-24 mr-4" /> */}
-                <p>Location</p>
+        <div className="address mt-4 text-center flex-col flex justify-center items-center">
+            <div className="flex">
+                <img src={GifMap} alt="gif" className="h-10 mr-4" />
+                <p className='text-3xl font-bold'>Location</p>
             </div>
             <div className="flex ">
                 <div className="address">
