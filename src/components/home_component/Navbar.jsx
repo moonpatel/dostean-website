@@ -8,7 +8,7 @@ export default function Navbar() {
     return (
         <>
             <div className="h-16"></div>
-            <div className="bg-dark text-white/75 fixed w-full top-0 h-16">
+            <div className="bg-dark text-white/90 fixed w-full top-0 h-16">
                 <div className="flex justify-between items-center text-xl font-bold p-2 mt-1">
                     <img src={Logo} alt="logo" className="w-10 h-10" />
                     <h1>
