@@ -18,7 +18,7 @@ export default function Middle() {
             <div className="flex my-5">
                 <img src={CafeImage} alt="cafeimg" className="w-1/2 mt-7 m-3" />
                 <div className="w-1/2 my-auto">
-                    <p className="font-bold text-3xl my-3">About us</p>
+                    <p className="font-bold text-3xl my-3 text-primary-900">About us</p>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui,
                         dolorem. Repudiandae quaerat expedita earum, soluta aspernatur aut
@@ -26,13 +26,13 @@ export default function Middle() {
                 </div>
             </div>
             <div className="menu my-10 text-center bg-gray-200">
-                <h1 className="text-3xl font-bold my-5">Our Menu</h1>
+                <h1 className="text-3xl font-bold my-5 text-primary-900">Our Menu</h1>
                 <div className="flex">
                     <img src="https://images.unsplash.com/photo-1586190848861-99aa4a171e90?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1780&q=80" className="w-20 m-auto" />
                     <img src="https://images.unsplash.com/photo-1586190848861-99aa4a171e90?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1780&q=80" className="w-20 m-auto" />
                     <img src="https://images.unsplash.com/photo-1586190848861-99aa4a171e90?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1780&q=80" className="w-20 m-auto" />
                 </div>
-                <button className=" bg-black text-lg font-semibold text-white mx-36 mt-5 text-center">View Menu</button>
+                <button className=" bg-black text-lg font-semibold text-primary-50 mx-36 mt-5 text-center">View Menu</button>
             </div>
             <LocationDetails />
         </div>
