@@ -1,6 +1,8 @@
 import React from "react";
 import Img from "../images/i1.jpg";
 import CafeImage from "../images/i2.jpg";
+import Gifmap from "../images/map-locator.gif";
+
 export default function Middle() {
     return (
         <div>
@@ -34,7 +36,7 @@ export default function Middle() {
             </div>
             <div className="address mt-4">
                 <div className="flex mx-20">
-                    <img src={Img} alt="gif" className="w-24 mr-4" />
+                    <img src={Gifmap} alt="gif" className="w-24 mr-4" />
                     <p>Location</p>
                 </div>
                 <div className="flex ">
