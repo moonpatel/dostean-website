@@ -6,11 +6,11 @@ const LocationDetails = () => {
             <div className="flex flex-col md:flex-row space-y-5 md:space-y-0 md:space-x-4 items-center md:justify-around py-10 md:py-16 bg-primary-200 text-white">
                 <div className="w-1/2 md:w-1/4">
                     <p className="font-bold text-2xl fontmerienda my-3">Address</p>
-                    <p className="text-sm text-dark/75 font-medium">BUNGALOW NO -2, beside ICHHANATH SUPER STORE, Jalaram Society, Piplod, Surat, Gujarat 395007</p>
+                    <p className="text-sm text-dark font-medium">BUNGALOW NO -2, beside ICHHANATH SUPER STORE, Jalaram Society, Piplod, Surat, Gujarat 395007</p>
                 </div>
                 <div className="w-1/2 md:w-1/4">
                     <p className="font-bold text-2xl fontmerienda my-3">Timings</p>
-                    <p className='text-sm text-dark/75 font-medium'>All Days <br /> 12:00p.m.-11:30p.m.</p>
+                    <p className='text-sm text-dark font-medium'>All Days <br /> 12:00p.m.-11:30p.m.</p>
                 </div>
             </div>
             {/* <p className="font-bold m-3 mt-5 text-3xl fontmerienda text-primary-400">Map</p> */}

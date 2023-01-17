@@ -8,13 +8,13 @@ export default function Middle() {
             <div className="section">
                 <div className="slider">
                 </div>
-                <div className="flex flex-col-reverse md:flex-row text-center my-20 mt-20 w-full justify-center md:items-center">
+                <div className="flex flex-col-reverse md:flex-row text-center my-5 mt-5 w-full justify-center md:items-center">
                     <div className="md:bg-primary-300 md:w-1/2 md:mx-10 -z-10 relative">
                         <img src={CafeImage} alt="cafeimg" className="md:w-full shadow-lg" />
                     </div>
-                    <div className="md:w-1/2 md:text-left my-20">
+                    <div className="md:w-1/2 md:text-left my-5 ">
                         <p className="font-bold text-3xl my-3 md:px-3 text-primary-400 fontmerienda">About us</p>
-                        <p className="text-sm text-black/50 font-medium px-3">
+                        <p className="text-sm text-black/90 font-medium px-3">
                             Lorem ipsum dol or sit amet, consectetur adipisicing elit. Qui,
                             dolorem. Repudiandae quaerat expedita earum, soluta aspernatur aut
                             Lorem ipsum dol or sit amet, consectetur adipisicing elit. Qui,
@@ -44,7 +44,7 @@ export default function Middle() {
                         View Menu
                     </button>
                 </div>
-                <div className="flex">
+                <div className="flex mb-4 text-center justify-center">
                     <span className="text-base font-bold mr-4">Google Rating</span>
                     <div class="flex items-center">
                         <svg
