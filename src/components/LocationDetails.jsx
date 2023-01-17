@@ -1,13 +1,8 @@
-import React from 'react';
-import Mapgif from "./images/map-locator.gif";
+import React from 'react'
 const LocationDetails = () => {
     // const map = document.querySelector('#map')
     return (
         <div className="address mt-4">
-            {/* <div className="flex mx-20">
-             <img src={Mapgif}  alt="gif" className="w-24 mr-4" />
-                <p>Location</p>
-            </div> */}
             <div className="flex ">
                 <div className="address mr-5 ml-2">
                     <p className="font-bold text-lg ">Address</p>

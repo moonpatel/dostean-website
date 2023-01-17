@@ -1,0 +1,54 @@
+.slider {
+    /* display: flex;
+    float: left;
+    position: relative;
+    animation-name: slide;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+    transition-duration: 2s; */
+    width: 100%;
+    height: 720px;
+    background-image: url("../images/si1.jpg");
+    background-size: 100% 100%;
+    animation: changeImg 35s linear infinite;
+  
+}
+
+
+.section {
+    width: max-content;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+  }
+
+  .img{
+    width: 1200px;
+  }
+
+  
+  @keyframes changeImg {
+    0% {
+        background-image: url("../images/si1.jpg");
+    }
+    17% {
+        background-image: url("../images/si2.jpg");
+    }
+    34% {
+        background-image: url("../images/si3.jpg");
+    }
+    51% {
+        background-image: url("../images/si4.jpg");
+    }
+    68% {
+        background-image: url("../images/si5.jpg");
+    }
+    85% {
+        background-image: url("../images/si6.jpg");
+    }
+    100% {
+        background-image: url("../images/si1.jpg");
+    }
+
+  }
