@@ -18,6 +18,9 @@ module.exports = {
                 },
                 dark: "#1e1e1e"
             },
+            fontFamily: {
+                // merienda: ['merienda']
+            }
         },
     },
     plugins: [],
