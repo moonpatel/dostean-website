@@ -15,8 +15,8 @@ export default function Middle() {
                     <img src="" alt="img" className="img" />
                 </div>
             </div> */}
-            <div className='bg-blend-multiply bg-black/60 w-full h-[360px] md:h-[480px] bg-center bg-cover bg-[url(https://images.unsplash.com/photo-1496412705862-e0088f16f791?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80)]'>
-                <div className='flex items-center top-1/3 text-center w-full z-0'>
+            <div className='bg-blend-multiply bg-black/60 w-full h-[360px] md:h-[480px] flex items-center bg-center bg-cover bg-[url(https://images.unsplash.com/photo-1496412705862-e0088f16f791?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80)]'>
+                <div className='flex items-center top-1/3 text-center flex-col w-full z-0'>
                     <h1 className='text-white text-4xl md:text-8xl fontmerienda my-2 md:my-5'>Dostea<sup>n</sup></h1>
                     <p className='text-primary-200 font-medium text-sm md:text-lg'>Get a glimpse of our authentic dishes.</p>
                 </div>
