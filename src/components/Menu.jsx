@@ -1,18 +1,19 @@
 import React from 'react'
-import { NavLink, Outlet, Route, Routes } from 'react-router-dom'
+import { NavLink, Route, Routes } from 'react-router-dom'
 import Navbar from './home_component/Navbar'
 import { dishes } from '../menu.json'
 import Dishes from './Dishes'
+import Footer from './home_component/Footer'
 
 console.log(dishes)
 const Menu = () => {
-    const activeStateFunction = ({ isActive }) => { return isActive ? "bg-primary-300 text-white scale-[1.15] rounded transition-all duration-300" : "bg-gray-300 hover:bg-primary-300 rounded" }
+    const activeStateFunction = ({ isActive }) => { return isActive ? "bg-primary-300 text-white scale-[1.15] -z-10 rounded transition-all duration-300" : "bg-gray-300 hover:bg-primary-300 rounded" }
     return (
         <>
             <Navbar />
             <div className='h-32'></div>
-            <h1 className='text-4xl text-center'>Our Menu</h1>
-            <div>
+            <h1 className='text-4xl text-center my-5'>Our Menu</h1>
+            <div className='mb-32'>
                 <ul className='flex flex-wrap gap-5 gap-x-3 justify-center px-10 my-3'>
                     <NavLink className={activeStateFunction} to="mocktail">
                         <li className='p-2'>
@@ -187,10 +188,9 @@ const Menu = () => {
                         </li>
                     </NavLink>
                 </ul>
+                <div className='h-10'></div>
                 <Routes>
                     <Route path='' element="Nothing" />
-                    <Route path={dishes[0].name} key={dishes[0].name} element={<Dishes dishes={dishes[0].dishes} name={dishes[0].name} />} />
-
                     {
                         dishes.map((dish, index) => {
                             return <Route path={dish.name} key={index} element={<Dishes dishes={dish.dishes} name={dish.name} />} />
@@ -198,6 +198,7 @@ const Menu = () => {
                     }
                 </Routes>
             </div>
+            <Footer />
         </>
     )
 }
