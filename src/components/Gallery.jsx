@@ -29,27 +29,26 @@ const Gallery = () => {
                 </div>
             </div>
             <div className='p-10 columns-2 md:columns-3 gap-6 space-y-6'>
-                <img src={fi1}  alt=""  />
-                <img src={fi2}  alt=""  />
-                <img src={fi3}  alt=""  />
-                <img src={fi4}  alt=""  />
-                <img src={fi5}  alt=""  />
-                <img src={fi6}  alt=""  />
-                <img src={fi7}  alt=""  />
-                <img src={fi8}  alt=""  />
-                <img src={fi9}  alt=""  />
-                <img src={fi10}  alt=""  />
-                <img src={fi11}  alt=""  />
-                <img src={fi12}  alt=""  />
-                <img src={fi13}  alt=""  />
-                <img src={fi14}  alt=""  />
-                <img src={fi15}  alt=""  />
-                <img src={fi16}  alt=""  />
+                <img src={fi1} alt="" />
+                <img src={fi2} alt="" />
+                <img src={fi3} alt="" />
+                <img src={fi4} alt="" />
+                <img src={fi5} alt="" />
+                <img src={fi6} alt="" />
+                <img src={fi7} alt="" />
+                <img src={fi8} alt="" />
+                <img src={fi9} alt="" />
+                <img src={fi10} alt="" />
+                <img src={fi11} alt="" />
+                <img src={fi12} alt="" />
+                <img src={fi13} alt="" />
+                <img src={fi14} alt="" />
+                <img src={fi15} alt="" />
+                <img src={fi16} alt="" />
             </div>
-            <Footer/>
+            <Footer />
         </React.Fragment>
     )
 }
 
 export default Gallery
- 
