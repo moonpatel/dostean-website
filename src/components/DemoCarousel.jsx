@@ -1,15 +1,27 @@
 import React from 'react'
 import { Carousel } from 'react-responsive-carousel'
 import "react-responsive-carousel/lib/styles/carousel.min.css";
+import s1 from "../components/images/si1.jpg";
+import s2 from "../components/images/si2.jpg";
+import s3 from "../components/images/si2-5.jpg";
+import s4 from "../components/images/si3.jpg";
+import s5 from "../components/images/si4.jpg";
+import s6 from "../components/images/si5.jpg";
+import s7 from "../components/images/si6.jpg";
+import s8 from "../components/images/si7.jpg";
 
 const DemoCarousel = () => {
     return (
         <div className='-z-10'>
             <Carousel className='-z-10' autoPlay={true} interval={"1000"} infiniteLoop={true}>
-                <div className='w-full'><img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Zm9vZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="" /></div>
-                <div className='w-full'><img src="https://images.unsplash.com/photo-1476224203421-9ac39bcb3327?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjd8fGZvb2R8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="" /></div>
-                <div><img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Zm9vZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="" /></div>
-                <div><img src="https://images.unsplash.com/photo-1476224203421-9ac39bcb3327?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjd8fGZvb2R8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="" /></div>
+                <div><img src={s1} alt="" /><p className="text-lg font-medium mt-7 ">Welcome to DOSTEAN<sup>n</sup> Cafe</p></div>
+                <div><img src={s2} alt="" /></div>
+                <div><img src={s3} alt="" /></div>
+                <div><img src={s4} alt="" /></div>
+                <div><img src={s5} alt="" /></div>
+                <div><img src={s6} alt="" /></div>
+                <div><img src={s7} alt="" /></div>
+                <div><img src={s8} alt="" /></div>
             </Carousel>
         </div>
     )

@@ -1,5 +1,18 @@
 import React from 'react'
 import Navbar from './home_component/Navbar'
+import fi1 from "../components/images/fi1.jpeg"
+import fi2 from "../components/images/fi2.jpeg"
+import fi3 from "../components/images/fi3.jpeg"
+import fi4 from "../components/images/fi4.jpeg"
+import fi5 from "../components/images/fi5.jpeg"
+import fi6 from "../components/images/fi6.jpeg"
+import fi7 from "../components/images/fi7.jpeg"
+import fi8 from "../components/images/fi8.jpeg"
+import fi9 from "../components/images/fi9.jpeg"
+import fi10 from "../components/images/fi10.jpeg"
+import fi11 from "../components/images/fi11.jpeg"
+import fi12 from "../components/images/fi12.jpeg"
+import Footer from './home_component/Footer'
 
 const Gallery = () => {
     return (
@@ -12,17 +25,20 @@ const Gallery = () => {
                 </div>
             </div>
             <div className='p-10 columns-2 md:columns-3 gap-6 space-y-6'>
-                <img src="https://images.unsplash.com/photo-1613564834361-9436948817d1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fHBpenphfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="" />
-                <img src="https://images.unsplash.com/photo-1615719413546-198b25453f85?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjl8fHBpenphfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="" />
-                <img src="https://images.unsplash.com/photo-1600028068383-ea11a7a101f3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzN8fHBpenphfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="" />
-                <img src="https://images.unsplash.com/photo-1571407970349-bc81e7e96d47?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fHBpenphfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="" />
-                <img src="https://images.unsplash.com/photo-1611915365928-565c527a0590?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzJ8fHBpenphfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="" />
-                <img src="https://images.unsplash.com/photo-1622880833523-7cf1c0bd4296?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NzF8fHBpenphfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="" />
-                <img src="https://images.unsplash.com/photo-1584365685547-9a5fb6f3a70c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NzJ8fHBpenphfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="" />
-                <img src="https://images.unsplash.com/photo-1600628421066-f6bda6a7b976?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8ODF8fHBpenphfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="" />
-                <img src="https://images.unsplash.com/photo-1607018244619-dab6235709dd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OTR8fHBpenphfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="" />
-                <img src="https://images.unsplash.com/photo-1607929298871-fbdcf7e84852?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTA3fHxwaXp6YXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="" />
+                <img src={fi1}  alt="" />
+                <img src={fi2}  alt="" />
+                <img src={fi3}  alt="" />
+                <img src={fi4}  alt="" />
+                <img src={fi5}  alt="" />
+                <img src={fi6}  alt="" />
+                <img src={fi7}  alt="" />
+                <img src={fi8}  alt="" />
+                <img src={fi9}  alt="" />
+                <img src={fi10}  alt="" />
+                <img src={fi11}  alt="" />
+                <img src={fi12}  alt="" />
             </div>
+            <Footer/>
         </React.Fragment>
     )
 }
