@@ -27,8 +27,8 @@ export default function Middle() {
                 {/* <img src={CafeImage} alt="cafeimg" className="md:w-1/2 mt-7 order-2" /> */}
 
             </div>
-            <div className="menu my-10 text-center space-y-3 py-3 bg-gray-200">
-                <h1 className="text-3xl font-bold mb-3">Our Menu</h1>
+            <div className="menu my-10 text-center space-y-3 py-3">
+                <h1 className="text-3xl font-bold mb-3 fontmerienda">Our Menu</h1>
                 <MenuDisplay />
                 <Link to="/menu" className=" bg-black text-lg font-semibold block mx-auto mt-5 text-white p-2 rounded-lg w-fit text-center">
                     View Menu
