@@ -16,28 +16,28 @@ const MenuDisplay = () => {
                     <div className='text-gray-500 text-sm mb-5'>
                         Mexican rice served with curry, patty, sautéed veg and fries
                     </div>
-                    <div className='text-2xl text-yellow-500 font-bold mb-0 absolute bottom-2'>₹499</div>
+                    <div className='text-2xl text-yellow-500 font-bold mb-0 absolute bottom-9'>₹499</div>
                 </div>
             </div>
             <div className='flex flex-row-reverse md:flex-row h-64 relative'>
                 <div className='w-1/2 col-span-1 h-full overflow-hidden'>
                     <div className='h-full w-full bg-cover bg-center bg-[url("../src/components/images/sp2.jpg")] hover:scale-125  transition-all duration-500'></div>
                 </div>
-                <div className='w-1/2 col-span-1 bg-black h-full p-3 text-left'>
+                <div className='w-1/2 col-span-1 bg-black h-full p-3 text-left py-10'>
                     <h1 className='fontmerienda font-bold text-lg my-2 text-white'>
                         Hot Chocolate
                     </h1>
                     <div className='text-gray-500 text-sm mb-5'>
                         Hot Chocolate with Biscuit Cup
                     </div>
-                    <div className='text-2xl text-yellow-500 font-bold mb-0 absolute bottom-2'>₹60</div>
+                    <div className='text-2xl text-yellow-500 font-bold mb-0 absolute bottom-9'>₹60</div>
                 </div>
             </div>
             <div className='flex md:flex-row-reverse lg:flex-row h-64 relative'>
                 <div className='w-1/2 col-span-1 h-full overflow-hidden'>
                     <div className='h-full w-full-span-1 bg-cover bg-center bg-[url("../src/components/images/sp3.jpg")] hover:scale-125  transition-all duration-500'></div>
                 </div>
-                <div className='w-1/2 col-span-1 bg-black h-full p-3 text-left'>
+                <div className='w-1/2 col-span-1 bg-black h-full p-3 text-left py-10'>
                     <h1 className='fontmerienda font-bold text-lg my-2 text-white'>
                         Burger
                     </h1>
@@ -45,21 +45,21 @@ const MenuDisplay = () => {
                         Lorem commodi consequuntur nisi facilis, quo recusandae vero
                         perferendis officia!
                     </div>
-                    <div className='text-2xl text-yellow-500 font-bold mb-0 absolute bottom-2'>₹100</div>
+                    <div className='text-2xl text-yellow-500 font-bold mb-0 absolute bottom-9'>₹100</div>
                 </div>
             </div>
             <div className='flex flex-row-reverse h-64 relative'>
                 <div className='w-1/2 col-span-1 h-full overflow-hidden'>
                     <div className='h-full w-full-span-1 bg-cover bg-center bg-[url("../src/components/images/sp4.jpg")] hover:scale-125  transition-all duration-500'></div>
                 </div>
-                <div className='w-1/2 col-span-1 bg-black h-full p-3 text-left'>
+                <div className='w-1/2 col-span-1 bg-black h-full p-3 text-left py-10'>
                     <h1 className='fontmerienda font-bold text-lg my-2 text-white'>
                         Jeera Rice
                     </h1>
                     <div className='text-gray-500 text-sm mb-5'>
                         Hot aromatic rice with cumin tadka
                     </div>
-                    <div className='text-2xl text-yellow-500 font-bold mb-0 absolute bottom-2'>₹99</div>
+                    <div className='text-2xl text-yellow-500 font-bold mb-0 absolute bottom-9'>₹99</div>
                 </div>
             </div>
             <div className='flex lg:flex-row-reverse h-64 relative'>
@@ -68,14 +68,14 @@ const MenuDisplay = () => {
 
                     <div className='w-full-span-1 h-full bg-cover bg-center bg-[url("../src/components/images/sp5.jpg")] hover:scale-125  transition-all duration-500'></div>
                 </div>
-                <div className='w-1/2 col-span-1 bg-black h-full p-3 text-left'>
+                <div className='w-1/2 col-span-1 bg-black h-full p-3 text-left py-10'>
                     <h1 className='fontmerienda font-bold text-lg my-2 text-white'>
                         Plain-chatpata peri peri
                     </h1>
                     <div className='text-gray-500 text-sm mb-5'>
                         Fries with the choice of flavor
                     </div>
-                    <div className='text-2xl text-yellow-500 font-bold mb-0 absolute bottom-2'>₹129</div>
+                    <div className='text-2xl text-yellow-500 font-bold mb-0 absolute bottom-9'>₹129</div>
                 </div>
             </div>
             <div className='flex flex-row-reverse md:flex-row lg:flex-row-reverse h-64 relative'>
@@ -84,7 +84,7 @@ const MenuDisplay = () => {
 
                     <div className='w-full-span-1 h-full bg-cover bg-center bg-[url("../src/components/images/sp6.jpg")] hover:scale-125  transition-all duration-500'></div>
                 </div>
-                <div className='w-1/2 col-span-1 bg-black h-full p-3 text-left'>
+                <div className='w-1/2 col-span-1 bg-black h-full p-3 text-left py-10'>
                     <h1 className='fontmerienda font-bold text-lg my-2 text-white'>
                         Hakka Noodles
                     </h1>
@@ -92,7 +92,7 @@ const MenuDisplay = () => {
                         Hakka noodles are Indian-Chinese style noodles made with unleavened
                         refined wheat flour.
                     </div>
-                    <div className='text-2xl text-yellow-500 font-bold mb-0 absolute bottom-2'>₹169</div>
+                    <div className='text-2xl text-yellow-500 font-bold mb-0 absolute bottom-9'>₹169</div>
                 </div>
             </div>
         </div>

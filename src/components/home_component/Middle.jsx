@@ -4,7 +4,6 @@ import DemoCarousel from "../DemoCarousel";
 import CafeImage from "../images/i2.jpg";
 import LocationDetails from "../LocationDetails";
 import MenuDisplay from "../MenuDisplay";
-// import "./slider.css";
 import "animate.css/animate.min.css";
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 
@@ -14,8 +13,6 @@ export default function Middle() {
         <div className="section">
             <DemoCarousel />
             <br />
-            {/* <div className="slider">
-            </div> */}
             <div className="flex flex-col-reverse md:flex-row text-center my-5 mt-5 md:pl-20 w-full justify-start md:items-center relative md:h-[500px]">
                 <div className="md:bg-primary-300 md:w-1/2 md:mx-10 -z-10 relative">
                     <img src={CafeImage} alt="cafeimg" className="md:w-full shadow-lg" />
@@ -23,8 +20,8 @@ export default function Middle() {
 
                 <div className="md:text-left my-5 shadow-lg p-3 md:p-10 rounded-lg md:absolute bg-yellow1 md:w-[300px] md:right-[240px] md:h-[500px]">
                     <AnimationOnScroll animateIn="animate__fadeInUp">
-                        <p className="font-bold text-2xl my-3 md:px-5 text-black fontmerienda mt-16 mb-5">Our Journey</p>
-                        <p className="text-xs text-black/90 font-medium px-3">
+                        <p className="font-bold text-3xl my-3 md:px-3 text-black fontmerienda mt-16 mb-9">Our Journey</p>
+                        <p className="text-sm text-black/90 font-medium px-3">
                             Welcome to our restaurant, where a love for good food and a passion for culinary excellence come together.
                             Our journey started on 15th September,2020 by 3 friends who are tea lovers. We have a simple dream to create a
                             dining experience that would delight the senses and leave a lasting impression.
@@ -47,7 +44,7 @@ export default function Middle() {
                 <div class="flex items-center">
                     <svg
                         aria-hidden="true"
-                        class="w-5 h-5 text-yellow-400"
+                        class="w-5 h-5 fill-yellow-400"
                         fill="currentColor"
                         viewBox="0 0 20 20"
                         xmlns="http://www.w3.org/2000/svg"
@@ -57,7 +54,7 @@ export default function Middle() {
                     </svg>
                     <svg
                         aria-hidden="true"
-                        class="w-5 h-5 text-yellow-400"
+                        class="w-5 h-5 fill-yellow-400"
                         fill="currentColor"
                         viewBox="0 0 20 20"
                         xmlns="http://www.w3.org/2000/svg"
@@ -67,7 +64,7 @@ export default function Middle() {
                     </svg>
                     <svg
                         aria-hidden="true"
-                        class="w-5 h-5 text-yellow-400"
+                        class="w-5 h-5 fill-yellow-400"
                         fill="currentColor"
                         viewBox="0 0 20 20"
                         xmlns="http://www.w3.org/2000/svg"
@@ -77,7 +74,7 @@ export default function Middle() {
                     </svg>
                     <svg
                         aria-hidden="true"
-                        class="w-5 h-5 text-yellow-400"
+                        class="w-5 h-5 fill-yellow-400"
                         fill="currentColor"
                         viewBox="0 0 20 20"
                         xmlns="http://www.w3.org/2000/svg"
@@ -87,7 +84,7 @@ export default function Middle() {
                     </svg>
                     <svg
                         aria-hidden="true"
-                        class="w-5 h-5 text-yellow-400/70 dark:text-gray-500"
+                        class="w-5 h-5 fill-yellow-400/70 dark:text-gray-500"
                         fill="currentColor"
                         viewBox="0 0 20 20"
                         xmlns="http://www.w3.org/2000/svg"
