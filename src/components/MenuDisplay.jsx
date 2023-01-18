@@ -7,8 +7,6 @@ const MenuDisplay = () => {
         <div className='grid grid-cols-1 my-3 md:grid-cols-2 gap-2 lg:grid-cols-3'>
             <div className='flex h-52 relative'>
                 <div className='w-1/2 col-span-1 h-full overflow-hidden'>
-
-
                     <div className='h-full w-full bg-cover bg-center bg-[url("../src/components/images/sp1.jpg")] hover:scale-125  transition-all duration-500'></div>
                 </div>
                 <div className='w-1/2 bg-black h-full p-3 text-left'>
@@ -39,7 +37,7 @@ const MenuDisplay = () => {
                 <div className='w-1/2 col-span-1 h-full overflow-hidden'>
 
 
-                    <div className='lh-full w flw-full-span-1 h-full bg-cover bg-center bg-[url("../src/components/images/sp3.jpg")] hover:scale-125  transition-all duration-500'></div>
+                    <div className='h-full w-full-span-1 bg-cover bg-center bg-[url("../src/components/images/sp3.jpg")] hover:scale-125  transition-all duration-500'></div>
                 </div>
                 <div className='w-1/2 col-span-1 bg-black h-full p-3 text-left'>
                     <h1 className='fontmerienda font-bold text-lg my-2 text-white'>
@@ -54,9 +52,7 @@ const MenuDisplay = () => {
             </div>
             <div className='flex flex-row-reverse h-52 relative'>
                 <div className='w-1/2 col-span-1 h-full overflow-hidden'>
-
-
-                    <div className='lh-full w flw-full-span-1 h-full bg-cover bg-center bg-[url("../src/components/images/sp4.jpg")] hover:scale-125  transition-all duration-500'></div>
+                    <div className='h-full w-full-span-1 bg-cover bg-center bg-[url("../src/components/images/sp4.jpg")] hover:scale-125  transition-all duration-500'></div>
                 </div>
                 <div className='w-1/2 col-span-1 bg-black h-full p-3 text-left'>
                     <h1 className='fontmerienda font-bold text-lg my-2 text-white'>
@@ -72,7 +68,7 @@ const MenuDisplay = () => {
                 <div className='w-1/2 col-span-1 h-full overflow-hidden'>
 
 
-                    <div className='lh-full w flw-full-span-1 h-full bg-cover bg-center bg-[url("../src/components/images/sp5.jpg")] hover:scale-125  transition-all duration-500'></div>
+                    <div className='w-full-span-1 h-full bg-cover bg-center bg-[url("../src/components/images/sp5.jpg")] hover:scale-125  transition-all duration-500'></div>
                 </div>
                 <div className='w-1/2 col-span-1 bg-black h-full p-3 text-left'>
                     <h1 className='fontmerienda font-bold text-lg my-2 text-white'>
@@ -88,7 +84,7 @@ const MenuDisplay = () => {
                 <div className='w-1/2 col-span-1 h-full overflow-hidden'>
 
 
-                    <div className='lh-full w flw-full-span-1 h-full bg-cover bg-center bg-[url("../src/components/images/sp6.jpg")] hover:scale-125  transition-all duration-500'></div>
+                    <div className='w-full-span-1 h-full bg-cover bg-center bg-[url("../src/components/images/sp6.jpg")] hover:scale-125  transition-all duration-500'></div>
                 </div>
                 <div className='w-1/2 col-span-1 bg-black h-full p-3 text-left'>
                     <h1 className='fontmerienda font-bold text-lg my-2 text-white'>
