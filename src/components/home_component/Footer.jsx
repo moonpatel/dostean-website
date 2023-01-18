@@ -4,7 +4,7 @@ import Logo from "../images/Dostean_logo.png";
 export default function Footer() {
   return (
     <>
-      <footer class="p-4 sm:p-6 bg-primary-100 dark:bg-gray-900">
+      <footer class="p-4 sm:p-6 bg-black dark:bg-gray-900">
         <div class="md:flex md:justify-between">
           <div class="mb-6 md:mb-0">
             <a href="#" class="flex items-center">
@@ -13,17 +13,17 @@ export default function Footer() {
                 class="h-8 mr-3"
                 alt="Dostean Logo"
               />
-              <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
+              <span class="self-center text-2xl font-semibold whitespace-nowrap text-orange-400">
                 DOSTEA<sup>n</sup>
               </span>
             </a>
           </div>
           <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
             <div>
-              <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
+              <h2 class="mb-6 text-sm font-semibold text-white uppercase dark:text-white">
                 Follow us
               </h2>
-              <ul class="text-gray-600 dark:text-gray-400">
+              <ul class="text-white dark:text-gray-400">
                 <li class="mb-4">
                   <a
                     href="https://instagram.com/dostean_surat?igshid=OGQ2MjdiOTE="
@@ -43,10 +43,10 @@ export default function Footer() {
               </ul>
             </div>
             <div>
-              <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
+              <h2 class="mb-6 text-sm font-semibold text-white uppercase dark:text-white">
                 Legal
               </h2>
-              <ul class="text-gray-600 dark:text-gray-400">
+              <ul class="text-white dark:text-gray-400">
                 <li class="mb-4">
                   <a href="#" class="hover:underline">
                     Privacy Policy
@@ -63,7 +63,7 @@ export default function Footer() {
         </div>
         <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
         <div class="sm:flex sm:items-center sm:justify-between">
-          <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">
+          <span class="text-sm text-white sm:text-center dark:text-gray-400">
             © 2023{" "}
             <a href="https://flowbite.com/" class="hover:underline">
               DOSTEA<sup>n</sup>
@@ -73,7 +73,7 @@ export default function Footer() {
           <div class="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
             <a
               href="#"
-              class="text-gray-500 hover:text-gray-900 dark:hover:text-white"
+              class="text-white hover:text-gray-900 dark:hover:text-white"
             >
               <svg
                 class="w-5 h-5"
@@ -91,7 +91,7 @@ export default function Footer() {
             </a>
             <a
               href="#"
-              class="text-gray-500 hover:text-gray-900 dark:hover:text-white"
+              class="text-white hover:text-gray-900 dark:hover:text-white"
             >
               <svg
                 class="w-5 h-5"

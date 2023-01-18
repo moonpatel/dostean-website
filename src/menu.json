@@ -556,7 +556,7 @@
             "dishes": [
                 {
                     "name": "Veg Manchurian ",
-                    "price": "119",
+                    "price": "169",
                     "desc": "Vegetable balls toasted in classic sauce"
                 },
                 {
@@ -702,7 +702,7 @@
             ]
         },
         {
-            "name": "LEBARESE",
+            "name": "LEBANESE",
             "dishes": [
                 {
                     "name": "Hummus Platter ",

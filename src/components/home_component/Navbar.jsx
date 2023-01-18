@@ -13,7 +13,7 @@ export default function Navbar() {
                 <div className="flex justify-between items-center text-base h-16 md:h-14 font-bold p-2 mt-1">
                     <div className="flex items-center space-x-2">
                         <img src={Logo} alt="logo" className="w-10 h-10" />
-                        <h1>
+                        <h1 className="text-orange-400">
                             DOSTEA<sup>n</sup>
                         </h1>
                     </div>
@@ -50,16 +50,16 @@ export default function Navbar() {
                 {(showNavbar) &&
                     <ul className="text-center text-lg space-y-2 flex flex-col py-3 items-center z-30 bg-dark w-full">
                         <NavLink className={linkStateFunction} to="/home" >
-                            <li className="h-10 p-1 w-full hover:text-primary-400">Home</li>
+                            <li className="h-10 p-1 w-full hover:text-primary-400 hover:border-b hover:border-blue-70\">Home</li>
                         </NavLink>
                         <NavLink className={linkStateFunction} to="/menu" >
-                            <li className="h-10 p-1 w-full hover:text-primary-400">Menu</li>
+                            <li className="h-10 p-1 w-full hover:text-primary-400 hover:border-b hover:border-blue-70\">Menu</li>
                         </NavLink>
                         <NavLink className={linkStateFunction} to="/gallery" >
-                            <li className="h-10 p-1 w-full hover:text-primary-400">Gallery</li>
+                            <li className="h-10 p-1 w-full hover:text-primary-400 hover:border-b hover:border-blue-70\">Gallery</li>
                         </NavLink>
                         <NavLink className={linkStateFunction} to="/about-us" >
-                            <li className="h-10 p-1 w-full hover:text-primary-400">About Us</li>
+                            <li className="h-10 p-1 w-full hover:text-primary-400 hover:border-b hover:border-blue-70\">About Us</li>
                         </NavLink>
                     </ul>}
             </div>

@@ -7,7 +7,7 @@ import Footer from './home_component/Footer'
 
 console.log(dishes)
 const Menu = () => {
-    const activeStateFunction = ({ isActive }) => { return isActive ? "bg-primary-300 text-white scale-[1.15] -z-10 rounded transition-all duration-300" : "bg-gray-300 hover:bg-primary-300 rounded" }
+    const activeStateFunction = ({ isActive }) => { return isActive ? "bg-green-600 text-white scale-[1.15] -z-10 rounded transition-all duration-300" : "bg-gray-300 hover:bg-green-500 rounded" }
     return (
         <>
             <Navbar />
@@ -86,7 +86,7 @@ const Menu = () => {
                     <NavLink className={activeStateFunction} to="lebanese">
                         <li className='p-2'>
                             <span className='fontmerienda font-bold'>
-                                Lebanase
+                                Lebanese
                             </span>
                             <span></span>
                         </li>
