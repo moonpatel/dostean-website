@@ -3,13 +3,13 @@ import React from 'react';
 const LocationDetails = () => {
     return (
         <div className="text-center">
-            <div className="flex flex-col md:flex-row space-y-5 md:space-y-0 md:space-x-4 items-center md:justify-around py-10 md:py-16      bg-slate-300 text-white">
+            <div className="flex flex-col md:flex-row space-y-5 md:space-y-0 md:space-x-4 items-center md:justify-around py-10 md:py-16 bg-[#ffa630] text-white">
                 <div className="w-1/2 md:w-1/4">
-                    <p className="font-bold text-2xl fontmerienda my-3 text-red-500">Address</p>
+                    <p className="font-bold text-2xl fontmerienda my-3 text-black">Address</p>
                     <p className="text-sm text-dark font-medium">BUNGALOW NO -2, beside ICHHANATH SUPER STORE, Jalaram Society, Piplod, Surat, Gujarat 395007</p>
                 </div>
                 <div className="w-1/2 md:w-1/4">
-                    <p className="font-bold text-2xl fontmerienda my-3 text-red-500">Timings</p>
+                    <p className="font-bold text-2xl fontmerienda my-3 text-black">Timings</p>
                     <p className='text-sm text-dark font-medium'>All Days <br /> 12:00p.m.-11:30p.m.</p>
                 </div>
             </div>
