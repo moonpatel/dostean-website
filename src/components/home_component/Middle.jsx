@@ -6,7 +6,7 @@ import "./slider.css";
 export default function Middle() {
             return (
             <div className="section bg-[#f5f5f5]">
-                <div className="slider ">
+                <div className="slider h-[500px] md:h-[650px] md:w-[1024px] lg:w-[1280px] lg:mx-auto w-[400px]">
                 </div>
                 <div className="flex flex-col-reverse md:flex-row text-center my-5 mt-5 w-full justify-center md:items-center">
                     <div className="md:bg-primary-300 md:w-1/2 md:mx-10 -z-10 relative">
