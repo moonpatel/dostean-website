@@ -7,7 +7,6 @@ import MenuDisplay from "../MenuDisplay";
 import "animate.css/animate.min.css";
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 
-
 export default function Middle() {
     return (
         <div className="section">
@@ -17,7 +16,6 @@ export default function Middle() {
                 <div className="md:bg-primary-300 md:w-1/2 md:mx-10 -z-10 relative">
                     <img src={CafeImage} alt="cafeimg" className="md:w-full shadow-lg" />
                 </div>
-
                 <div className="md:text-left my-5 shadow-lg p-3 md:p-10 rounded-lg md:absolute bg-yellow1 md:w-[300px] md:right-[240px] md:h-[500px]">
                     <AnimationOnScroll animateIn="animate__fadeInUp">
                         <p className="font-bold text-3xl my-3 md:px-3 text-black fontmerienda mt-16 mb-9">Our Journey</p>
@@ -99,5 +97,5 @@ export default function Middle() {
             </div>
             <LocationDetails />
         </div>
-    );
+    )
 }
