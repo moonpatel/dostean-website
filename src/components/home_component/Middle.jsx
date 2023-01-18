@@ -1,11 +1,10 @@
 import React from "react";
-import { Carousel } from "react-responsive-carousel";
 import { Link } from "react-router-dom";
 import DemoCarousel from "../DemoCarousel";
 import CafeImage from "../images/i2.jpg";
 import LocationDetails from "../LocationDetails";
 import MenuDisplay from "../MenuDisplay";
-import "./slider.css";
+// import "./slider.css";
 import "animate.css/animate.min.css";
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 
@@ -24,8 +23,8 @@ export default function Middle() {
 
                 <div className="md:text-left my-5 shadow-lg p-3 md:p-10 rounded-lg md:absolute bg-yellow1 md:w-[300px] md:right-[240px] md:h-[500px]">
                     <AnimationOnScroll animateIn="animate__fadeInUp">
-                        <p className="font-bold text-3xl my-3 md:px-3 text-black fontmerienda">Our Journey</p>
-                        <p className="text-sm text-black/90 font-medium px-3">
+                        <p className="font-bold text-2xl my-3 md:px-5 text-black fontmerienda mt-16 mb-5">Our Journey</p>
+                        <p className="text-xs text-black/90 font-medium px-3">
                             Welcome to our restaurant, where a love for good food and a passion for culinary excellence come together.
                             Our journey started on 15th September,2020 by 3 friends who are tea lovers. We have a simple dream to create a
                             dining experience that would delight the senses and leave a lasting impression.

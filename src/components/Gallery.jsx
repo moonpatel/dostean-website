@@ -24,7 +24,7 @@ const Gallery = () => {
                     <p className='text-primary-200 font-medium text-sm md:text-lg'>Get a glimpse of our authentic dishes.</p>
                 </div>
             </div>
-            <div className='p-10 columns-2 md:columns-3 gap-6 space-y-6'>
+            <div className='p-3 columns-2 md:columns-3 gap-3 space-y-3'>
                 <img src={fi1}  alt="" />
                 <img src={fi2}  alt="" />
                 <img src={fi3}  alt="" />

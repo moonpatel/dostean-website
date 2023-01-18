@@ -4,7 +4,7 @@ import React from 'react'
 
 const MenuDisplay = () => {
     return (
-        <div className='grid grid-cols-1 my-3 md:grid-cols-2 gap-2 lg:grid-cols-3'>
+        <div className='grid grid-cols-1 my-3 md:grid-cols-2 gap-1 lg:grid-cols-3'>
             <div className='flex h-52 relative'>
                 <div className='w-1/2 col-span-1 h-full overflow-hidden'>
                     <div className='h-full w-full bg-cover bg-center bg-[url("../src/components/images/sp1.jpg")] hover:scale-125  transition-all duration-500'></div>
