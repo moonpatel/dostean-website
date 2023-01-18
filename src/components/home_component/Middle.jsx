@@ -7,7 +7,6 @@ import MenuDisplay from "../MenuDisplay";
 import "animate.css/animate.min.css";
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 
-
 export default function Middle() {
     return (
         <div className="section">
@@ -99,5 +98,5 @@ export default function Middle() {
             </div>
             <LocationDetails />
         </div>
-    );
+    )
 }

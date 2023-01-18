@@ -1,5 +1,3 @@
-/** @format */
-
 import React from 'react'
 
 const MenuDisplay = () => {
@@ -11,10 +9,9 @@ const MenuDisplay = () => {
                 </div>
                 <div className='w-1/2 bg-black h-full p-3 text-left'>
                     <h1 className='fontmerienda font-bold text-lg my-2 text-white'>
-                        Mexican Sizzler
+                        Hot Chocolate with Biscuit Cup
                     </h1>
                     <div className='text-gray-500 text-sm mb-5'>
-                        Mexican rice served with curry, patty, sautéed veg and fries
                     </div>
                     <div className='text-2xl text-yellow-500 font-bold mb-0 absolute bottom-9'>₹499</div>
                 </div>
@@ -25,10 +22,9 @@ const MenuDisplay = () => {
                 </div>
                 <div className='w-1/2 col-span-1 bg-black h-full p-3 text-left py-10'>
                     <h1 className='fontmerienda font-bold text-lg my-2 text-white'>
-                        Hot Chocolate
+                        Sukun wali chai
                     </h1>
                     <div className='text-gray-500 text-sm mb-5'>
-                        Hot Chocolate with Biscuit Cup
                     </div>
                     <div className='text-2xl text-yellow-500 font-bold mb-0 absolute bottom-9'>₹60</div>
                 </div>
@@ -39,11 +35,10 @@ const MenuDisplay = () => {
                 </div>
                 <div className='w-1/2 col-span-1 bg-black h-full p-3 text-left py-10'>
                     <h1 className='fontmerienda font-bold text-lg my-2 text-white'>
-                        Burger
+                        Green Manchurian
                     </h1>
                     <div className='text-gray-500 text-sm mb-5'>
-                        Lorem commodi consequuntur nisi facilis, quo recusandae vero
-                        perferendis officia!
+                        Vegetable balls toasted with cheese spinach
                     </div>
                     <div className='text-2xl text-yellow-500 font-bold mb-0 absolute bottom-9'>₹100</div>
                 </div>
@@ -54,10 +49,10 @@ const MenuDisplay = () => {
                 </div>
                 <div className='w-1/2 col-span-1 bg-black h-full p-3 text-left py-10'>
                     <h1 className='fontmerienda font-bold text-lg my-2 text-white'>
-                        Jeera Rice
+                        Pulled Cheese Garlic Bread
                     </h1>
                     <div className='text-gray-500 text-sm mb-5'>
-                        Hot aromatic rice with cumin tadka
+                        House special garlic bread
                     </div>
                     <div className='text-2xl text-yellow-500 font-bold mb-0 absolute bottom-9'>₹99</div>
                 </div>
@@ -70,10 +65,10 @@ const MenuDisplay = () => {
                 </div>
                 <div className='w-1/2 col-span-1 bg-black h-full p-3 text-left py-10'>
                     <h1 className='fontmerienda font-bold text-lg my-2 text-white'>
-                        Plain-chatpata peri peri
+                        Cilantro Rice With Garlic Sauce
                     </h1>
                     <div className='text-gray-500 text-sm mb-5'>
-                        Fries with the choice of flavor
+                        Flavored cilantro rice served with cheese burnt garlic sauce
                     </div>
                     <div className='text-2xl text-yellow-500 font-bold mb-0 absolute bottom-9'>₹129</div>
                 </div>
@@ -86,11 +81,10 @@ const MenuDisplay = () => {
                 </div>
                 <div className='w-1/2 col-span-1 bg-black h-full p-3 text-left py-10'>
                     <h1 className='fontmerienda font-bold text-lg my-2 text-white'>
-                        Hakka Noodles
+                        Mexican Sizzler
                     </h1>
                     <div className='text-gray-500 text-sm mb-5'>
-                        Hakka noodles are Indian-Chinese style noodles made with unleavened
-                        refined wheat flour.
+                        Mexican rice served with curry, patty, sautéed veg and fries
                     </div>
                     <div className='text-2xl text-yellow-500 font-bold mb-0 absolute bottom-9'>₹169</div>
                 </div>
