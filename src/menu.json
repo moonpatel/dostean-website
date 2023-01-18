@@ -266,7 +266,7 @@
             ]
         },
         {
-            "name": "Sizzler",
+            "name": "sizzler",
             "dishes": [
                 {
                     "name": "Mexican Sizzler",
@@ -291,7 +291,7 @@
             ]
         },
         {
-            "name": "Salad",
+            "name": "salad",
             "dishes": [
                 {
                     "name": "Greek Farmer Salad",
@@ -321,7 +321,7 @@
             ]
         },
         {
-            "name": "Dessert",
+            "name": "dessert",
             "dishes": [
                 {
                     "name": "Mud Brownie",
@@ -371,7 +371,7 @@
             ]
         },
         {
-            "name": "Mocktail",
+            "name": "mocktail",
             "dishes": [
                 {
                     "name": "Classic Mojito",
@@ -427,7 +427,7 @@
             ]
         },
         {
-            "name": "Shakes",
+            "name": "shakes",
             "dishes": [
                 {
                     "name": "Nutella Shake",
@@ -457,7 +457,7 @@
             ]
         },
         {
-            "name": "Hot Coffee",
+            "name": "hot-coffee",
             "dishes": [
                 {
                     "name": "Black coffee",
@@ -487,7 +487,7 @@
             ]
         },
         {
-            "name": "BEVERAGES",
+            "name": "beverages",
             "dishes": [
                 {
                     "name": "Cold Drink ",
@@ -512,7 +512,7 @@
             ]
         },
         {
-            "name": "SOUP",
+            "name": "soup",
             "dishes": [
                 {
                     "name": "Manchow ",
@@ -537,7 +537,7 @@
             ]
         },
         {
-            "name": "CORTIRENTAL",
+            "name": "continental",
             "dishes": [
                 {
                     "name": "Mexican Chilly Beans ",
@@ -548,47 +548,7 @@
                     "name": "Cream of Tomato ",
                     "price": "99",
                     "desc": "Cream of Tomato "
-                }
-            ]
-        },
-        {
-            "name": "CHINESE",
-            "dishes": [
-                {
-                    "name": "Veg Manchurian ",
-                    "price": "119",
-                    "desc": "Vegetable balls toasted in classic sauce"
                 },
-                {
-                    "name": "Green Manchurian ",
-                    "price": "189",
-                    "desc": "Vegetable balls toasted with cheese spinach "
-                },
-                {
-                    "name": "Paneer Chilly ",
-                    "price": "229",
-                    "desc": "Coated Fried Paneer toasted in classic chilly"
-                },
-                {
-                    "name": "BBQ Paneer ",
-                    "price": "229",
-                    "desc": "Smoky flavor oriental style Paneer"
-                },
-                {
-                    "name": "Paneer Red Pepper ",
-                    "price": "249",
-                    "desc": "Spicy flavor sauce toasted with Paner "
-                },
-                {
-                    "name": "Veg Crispy ",
-                    "price": "209",
-                    "desc": "Crunchy vegetables toasted with mid spicy"
-                }
-            ]
-        },
-        {
-            "name": "CORTINRERTAL",
-            "dishes": [
                 {
                     "name": "Corn Cheese Ball",
                     "price": "229",
@@ -647,7 +607,42 @@
             ]
         },
         {
-            "name": "FRIES",
+            "name": "chinese",
+            "dishes": [
+                {
+                    "name": "Veg Manchurian ",
+                    "price": "119",
+                    "desc": "Vegetable balls toasted in classic sauce"
+                },
+                {
+                    "name": "Green Manchurian ",
+                    "price": "189",
+                    "desc": "Vegetable balls toasted with cheese spinach "
+                },
+                {
+                    "name": "Paneer Chilly ",
+                    "price": "229",
+                    "desc": "Coated Fried Paneer toasted in classic chilly"
+                },
+                {
+                    "name": "BBQ Paneer ",
+                    "price": "229",
+                    "desc": "Smoky flavor oriental style Paneer"
+                },
+                {
+                    "name": "Paneer Red Pepper ",
+                    "price": "249",
+                    "desc": "Spicy flavor sauce toasted with Paner "
+                },
+                {
+                    "name": "Veg Crispy ",
+                    "price": "209",
+                    "desc": "Crunchy vegetables toasted with mid spicy"
+                }
+            ]
+        },
+        {
+            "name": "fries",
             "dishes": [
                 {
                     "name": "Plain-chatpata peri peri ",
@@ -667,7 +662,7 @@
             ]
         },
         {
-            "name": "BREAD",
+            "name": "bread",
             "dishes": [
                 {
                     "name": "paneer makhni garlic bread",
@@ -702,7 +697,7 @@
             ]
         },
         {
-            "name": "LEBARESE",
+            "name": "lebanese",
             "dishes": [
                 {
                     "name": "Hummus Platter ",
@@ -717,7 +712,7 @@
             ]
         },
         {
-            "name": "WRAP",
+            "name": "wrap",
             "dishes": [
                 {
                     "name": "Healthy Veg wrap ",

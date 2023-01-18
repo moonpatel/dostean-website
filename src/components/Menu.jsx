@@ -11,8 +11,8 @@ const Menu = () => {
     return (
         <>
             <Navbar />
-            <div className='h-32'></div>
-            <h1 className='text-4xl text-center my-5'>Our Menu</h1>
+            <div className='h-10'></div>
+            <h1 className='text-4xl text-center'>Our Menu</h1>
             <div className='mb-32'>
                 <ul className='flex flex-wrap gap-5 gap-x-3 justify-center px-10 my-3'>
                     <NavLink className={activeStateFunction} to="mocktail">
@@ -39,6 +39,7 @@ const Menu = () => {
                             <span></span>
                         </li>
                     </NavLink>
+                    
                     <NavLink className={activeStateFunction} to="hot-coffee">
                         <li className='p-2'>
                             <span className='fontmerienda font-bold'>
