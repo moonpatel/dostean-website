@@ -1,5 +1,7 @@
 import React from "react";
+import { Carousel } from "react-responsive-carousel";
 import { Link } from "react-router-dom";
+import DemoCarousel from "../DemoCarousel";
 import CafeImage from "../images/i2.jpg";
 import LocationDetails from "../LocationDetails";
 import MenuDisplay from "../MenuDisplay";
@@ -9,8 +11,10 @@ import "./slider.css";
 export default function Middle() {
     return (
         <div className="section">
-            <div className="slider">
-            </div>
+            <DemoCarousel />
+            <br />
+            {/* <div className="slider">
+            </div> */}
             <div className="flex flex-col-reverse md:flex-row text-center my-5 mt-5 w-full justify-center md:items-center">
                 <div className="md:bg-primary-300 md:w-1/2 md:mx-10 -z-10 relative">
                     <img src={CafeImage} alt="cafeimg" className="md:w-full shadow-lg" />

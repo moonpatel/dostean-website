@@ -9,7 +9,7 @@ export default function Navbar() {
     return (
         <>
             <div className="h-16 md:h-14"></div>
-            <div className="bg-dark text-white/90 fixed w-full top-0">
+            <div className="bg-dark text-white/90 fixed w-full z-50 top-0">
                 <div className="flex justify-between items-center text-base h-16 md:h-14 font-bold p-2 mt-1">
                     <div className="flex items-center space-x-2">
                         <img src={Logo} alt="logo" className="w-10 h-10" />
