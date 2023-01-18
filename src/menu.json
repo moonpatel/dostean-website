@@ -548,6 +548,19 @@
                     "name": "Cream of Tomato ",
                     "price": "99",
                     "desc": "Cream of Tomato "
+<<<<<<< HEAD
+=======
+                }
+            ]
+        },
+        {
+            "name": "CHINESE",
+            "dishes": [
+                {
+                    "name": "Veg Manchurian ",
+                    "price": "169",
+                    "desc": "Vegetable balls toasted in classic sauce"
+>>>>>>> 6c421621252ea5b3c8da709937a127d426042b77
                 },
                 {
                     "name": "Corn Cheese Ball",
@@ -697,7 +710,11 @@
             ]
         },
         {
+<<<<<<< HEAD
             "name": "lebanese",
+=======
+            "name": "LEBANESE",
+>>>>>>> 6c421621252ea5b3c8da709937a127d426042b77
             "dishes": [
                 {
                     "name": "Hummus Platter ",

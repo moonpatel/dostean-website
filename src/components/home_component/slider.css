@@ -10,7 +10,7 @@
     height: 500px;
     background-image: url("../images/si1.jpg");
     background-size: 100% 100%;
-    animation: changeImg 35s linear infinite;
+    animation: changeImg 35s ease infinite;
   
 }
 
