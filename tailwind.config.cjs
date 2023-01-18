@@ -16,6 +16,7 @@ module.exports = {
                     800: "#603808",
                     900: "#583101",
                 },
+                yellow1: "#ffa630",
                 dark: "#1e1e1e"
             },
             fontFamily: {

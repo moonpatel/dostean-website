@@ -27,8 +27,8 @@ console.log(dishes)
 const Menu = () => {
     const activeStateFunction = ({ isActive }) => {
         return isActive
-            ? 'bg-primary-300 text-white scale-[1.15] -z-10 rounded transition-all duration-300'
-            : 'bg-gray-300 hover:bg-primary-300 rounded'
+            ? 'bg-yellow1 scale-[1.12] -z-10 rounded transition-all duration-300'
+            : 'bg-gray-300 hover:bg-yellow1/75 rounded'
     }
     return (
         <>
@@ -178,6 +178,13 @@ const Menu = () => {
                         </li>
                     </NavLink>
                     <NavLink className={activeStateFunction} to='dessert'>
+                        <li className='p-2 flex items-center'>
+                            <img src={dessert} alt='' className='w-5' />
+                            <span className='fontmerienda font-bold'>Dessert</span>
+                            <span></span>
+                        </li>
+                    </NavLink>
+                    <NavLink className={activeStateFunction} to='beverages'>
                         <li className='p-2 flex items-center'>
                             <img src={dessert} alt='' className='w-5' />
                             <span className='fontmerienda font-bold'>Dessert</span>
