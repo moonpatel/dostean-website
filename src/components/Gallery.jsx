@@ -12,6 +12,10 @@ import fi9 from "../components/images/fi9.jpeg"
 import fi10 from "../components/images/fi10.jpeg"
 import fi11 from "../components/images/fi11.jpeg"
 import fi12 from "../components/images/fi12.jpeg"
+import fi13 from "../components/images/sp3.jpg"
+import fi14 from "../components/images/sp4.jpg"
+import fi15 from "../components/images/sp5.jpg"
+import fi16 from "../components/images/sp6.jpg"
 import Footer from './home_component/Footer'
 
 const Gallery = () => {
@@ -25,18 +29,22 @@ const Gallery = () => {
                 </div>
             </div>
             <div className='p-10 columns-2 md:columns-3 gap-6 space-y-6'>
-                <img src={fi1}  alt="" />
-                <img src={fi2}  alt="" />
-                <img src={fi3}  alt="" />
-                <img src={fi4}  alt="" />
-                <img src={fi5}  alt="" />
-                <img src={fi6}  alt="" />
-                <img src={fi7}  alt="" />
-                <img src={fi8}  alt="" />
-                <img src={fi9}  alt="" />
-                <img src={fi10}  alt="" />
-                <img src={fi11}  alt="" />
-                <img src={fi12}  alt="" />
+                <img src={fi1}  alt=""  />
+                <img src={fi2}  alt=""  />
+                <img src={fi3}  alt=""  />
+                <img src={fi4}  alt=""  />
+                <img src={fi5}  alt=""  />
+                <img src={fi6}  alt=""  />
+                <img src={fi7}  alt=""  />
+                <img src={fi8}  alt=""  />
+                <img src={fi9}  alt=""  />
+                <img src={fi10}  alt=""  />
+                <img src={fi11}  alt=""  />
+                <img src={fi12}  alt=""  />
+                <img src={fi13}  alt=""  />
+                <img src={fi14}  alt=""  />
+                <img src={fi15}  alt=""  />
+                <img src={fi16}  alt=""  />
             </div>
             <Footer/>
         </React.Fragment>
@@ -44,3 +52,4 @@ const Gallery = () => {
 }
 
 export default Gallery
+ 
