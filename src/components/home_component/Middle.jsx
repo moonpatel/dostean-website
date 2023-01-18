@@ -19,8 +19,8 @@ export default function Middle() {
                 <div className="md:bg-primary-300 md:w-1/2 md:mx-10 -z-10 relative">
                     <img src={CafeImage} alt="cafeimg" className="md:w-full shadow-lg" />
                 </div>
-                <div className="md:w-1/2 md:text-left my-5 ">
-                    <p className="font-bold text-3xl my-3 md:px-3 text-primary-400 fontmerienda">About us</p>
+                <div className="md:w-1/2 md:text-left ">
+                    <p className="font-bold text-3xl my-3 md:px-3 text-red-500 fontmerienda">About us</p>
                     <p className="text-sm text-black/90 font-medium px-3">
                         Lorem ipsum dol or sit amet, consectetur adipisicing elit. Qui,
                         dolorem. Repudiandae quaerat expedita earum, soluta aspernatur aut
@@ -32,7 +32,7 @@ export default function Middle() {
 
             </div>
             <div className="menu my-10 text-center space-y-3 py-3">
-                <h1 className="text-3xl font-bold mb-3 fontmerienda">Our Special Items</h1>
+                <h1 className="text-3xl font-bold mb-3 fontmerienda text-red-500 ">Our Special Items</h1>
                 <MenuDisplay />
                 <Link to="/menu" className=" bg-black text-lg font-semibold block mx-auto mt-5 text-white p-2 rounded-lg w-fit text-center">
                     View Menu

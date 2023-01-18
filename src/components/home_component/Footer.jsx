@@ -1,6 +1,6 @@
 import React from "react";
 import Logo from "../images/Dostean_logo.png";
-
+import qr from "../images/qr-d.jpeg";
 export default function Footer() {
   return (
     <>
@@ -27,15 +27,15 @@ export default function Footer() {
                 <li class="mb-4">
                   <a
                     href="https://instagram.com/dostean_surat?igshid=OGQ2MjdiOTE="
-                    class="hover:underline "
+                    class="hover:underline hover:text-yellow-500"
                   >
                     Instagram
                   </a>
                 </li>
                 <li>
                   <a
-                    href="fblink"
-                    class="hover:underline"
+                    href="https://www.facebook.com/profile.php?id=100089019575876"
+                    class="hover:underline hover:text-yellow-500"
                   >
                     Facebook
                   </a>
@@ -60,20 +60,24 @@ export default function Footer() {
               </ul>
             </div>
           </div>
+          <div className="qr flex">
+            <img src={qr} className="h-20 mt-4"/>
+            <p className="text-white mt-16 ml-4">For Payment Use this QR-Code</p>
+          </div>
         </div>
         <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
         <div class="sm:flex sm:items-center sm:justify-between">
           <span class="text-sm text-white sm:text-center dark:text-gray-400">
             © 2023{" "}
-            <a href="https://flowbite.com/" class="hover:underline">
+            <a href="#" class="hover:underline">
               DOSTEA<sup>n</sup>
             </a>
             . All Rights Reserved.
           </span>
           <div class="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
             <a
-              href="#"
-              class="text-white hover:text-gray-900 dark:hover:text-white"
+              href="https://www.facebook.com/profile.php?id=100089019575876"
+              class="text-white hover:text-gray-300 dark:hover:text-white"
             >
               <svg
                 class="w-5 h-5"
@@ -90,8 +94,8 @@ export default function Footer() {
               <span class="sr-only">Facebook page</span>
             </a>
             <a
-              href="#"
-              class="text-white hover:text-gray-900 dark:hover:text-white"
+              href="https://instagram.com/dostean_surat?igshid=OGQ2MjdiOTE="
+              class="text-white hover:text-gray-300 dark:hover:text-white"
             >
               <svg
                 class="w-5 h-5"
@@ -109,7 +113,7 @@ export default function Footer() {
             </a>
             <a
               href="#"
-              class="text-gray-500 hover:text-gray-900 dark:hover:text-white"
+              class="text-gray-500 hover:text-gray-100 dark:hover:text-white"
             >
               <svg
                 class="w-5 h-5"
@@ -123,7 +127,7 @@ export default function Footer() {
             </a>
             <a
               href="#"
-              class="text-gray-500 hover:text-gray-900 dark:hover:text-white"
+              class="text-gray-500 hover:text-gray-100 dark:hover:text-white"
             >
             </a>
           </div>
