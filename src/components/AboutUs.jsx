@@ -5,6 +5,7 @@ import lp from "../components/images/lp.jpeg";
 import HeroImage from "./HeroImage";
 import v1 from '../../src/components/images/v1.mp4'
 import v2 from '../../src/components/images/v2.mp4'
+import Footer from "./home_component/Footer";
 
 const AboutUs = () => {
     const [v1play, setv1Play] = useState(false)
@@ -60,6 +61,7 @@ const AboutUs = () => {
                     </div>
                 </div>
             </div>
+            <Footer />
         </>
     );
 };
