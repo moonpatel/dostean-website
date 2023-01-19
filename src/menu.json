@@ -1,831 +1,831 @@
 {
-    "dishes": [
+  "dishes": [
+    {
+      "name": "sandwich",
+      "dishes": [
         {
-            "name": "sandwich",
-            "dishes": [
-                {
-                    "name": "Classic Veg",
-                    "desc": "Freshly cut veggies sandwich like Mumbai",
-                    "price": "69"
-                },
-                {
-                    "name": "Veg Cheese",
-                    "desc": "Freshly cut veggies sandwich like Mumbai topped with cheese",
-                    "price": "89"
-                },
-                {
-                    "name": "Masala Grill",
-                    "desc": "Masala cheese grill sandwich flavored spicy and chatpata",
-                    "price": "189"
-                },
-                {
-                    "name": "Bread Butter-Jam, Chatni",
-                    "desc": "Craving cutter with choice of flavors",
-                    "price": "48"
-                },
-                {
-                    "name": "Peri Peri Toast",
-                    "desc": "Chopped vegetables coated with spicy marinating and load with cheese",
-                    "price": "149"
-                },
-                {
-                    "name": "Paneer Toast",
-                    "desc": "special in house sauce coated with small",
-                    "price": "159"
-                },
-                {
-                    "name": "Dostea Special Toast Sandwich",
-                    "desc": "Melted cheese with sautéed vegies stuff between crunchy breads",
-                    "price": "179"
-                }
-            ]
+          "name": "Classic Veg",
+          "desc": "Freshly cut veggies sandwich like Mumbai",
+          "price": "69"
         },
         {
-            "name": "buns",
-            "dishes": [
-                {
-                    "name": "Plain Maska Bun",
-                    "desc": "Best combination with tea",
-                    "price": "29"
-                },
-                {
-                    "name": "Masala Maska Bun",
-                    "desc": "Bun servers with lots of butter and Indian species",
-                    "price": "48"
-                },
-                {
-                    "name": "Peri Peri Maska Bun",
-                    "desc": "Sweetness of bun along with in house special spice",
-                    "price": "48"
-                },
-                {
-                    "name": "Tandoori Maska Bun",
-                    "desc": "Indian taste lover",
-                    "price": "48"
-                }
-            ]
+          "name": "Veg Cheese",
+          "desc": "Freshly cut veggies sandwich like Mumbai topped with cheese",
+          "price": "89"
         },
         {
-            "name": "pizza",
-            "dishes": [
-                {
-                    "name": "Margarita",
-                    "desc": "Classic cheese Pizza topped with Tomato and basil",
-                    "price": "259"
-                },
-                {
-                    "name": "Pepper Pizza",
-                    "desc": "5 types of peppers on pizza",
-                    "price": "269"
-                },
-                {
-                    "name": "Garden Fresh",
-                    "desc": "Load with full exotic vegetables",
-                    "price": "269"
-                },
-                {
-                    "name": "Peri Peri Paneer Pizza",
-                    "desc": "Need spicy pizza this is the best choice for you",
-                    "price": "319"
-                },
-                {
-                    "name": "Paneer Tikka Pizza",
-                    "desc": "Paneer on top along with Indian spices flavor",
-                    "price": "319"
-                },
-                {
-                    "name": "Hawaiin Pizza",
-                    "desc": "Jalapeno Pineapple topped on pizza",
-                    "price": "269"
-                },
-                {
-                    "name": "Mexican",
-                    "desc": "Fusion of Italian n Mexican taste together",
-                    "price": "319"
-                }
-            ]
+          "name": "Masala Grill",
+          "desc": "Masala cheese grill sandwich flavored spicy and chatpata",
+          "price": "189"
         },
         {
-            "name": "pasta",
-            "dishes": [
-                {
-                    "name": "Creamy Cheese",
-                    "desc": "Classic béchamel cheese sauce pasta with exotic vegies",
-                    "price": "259"
-                },
-                {
-                    "name": "Pica to Redasto",
-                    "desc": "Combination of two sauce with mid spicy n cheese flavor",
-                    "price": "259"
-                },
-                {
-                    "name": "Tomatino Basil",
-                    "desc": "Classic arrabiata sauce floverd with basil",
-                    "price": "249"
-                }
-            ]
+          "name": "Bread Butter-Jam, Chatni",
+          "desc": "Craving cutter with choice of flavors",
+          "price": "48"
         },
         {
-            "name": "tea",
-            "dishes": [
-                {
-                    "name": "Make your Own Tea",
-                    "sprice": "30",
-                    "lprice": "45",
-                    "desc": ""
-                },
-                {
-                    "name": "Sukun Wali Chai",
-                    "sprice": "30",
-                    "lprice": "45",
-                    "desc": ""
-                },
-                {
-                    "name": "Chocolate chai",
-                    "price": "50",
-                    "desc": ""
-                },
-                {
-                    "name": "Green Tea",
-                    "price": "65",
-                    "desc": ""
-                }
-            ]
+          "name": "Peri Peri Toast",
+          "desc": "Chopped vegetables coated with spicy marinating and load with cheese",
+          "price": "149"
         },
         {
-            "name": "baked-dish",
-            "dishes": [
-                {
-                    "name": "Corn Spinach Lasagna",
-                    "desc": "Roasted corn and spinach baked with lots of cheese",
-                    "price": "269"
-                },
-                {
-                    "name": "Paneer Makhni Lasagna",
-                    "desc": "Fusion of Indian and Italian food baked dish",
-                    "price": "289"
-                },
-                {
-                    "name": "Enchiladas",
-                    "desc": "Mexican authentic backed dish",
-                    "price": "239"
-                }
-            ]
+          "name": "Paneer Toast",
+          "desc": "special in house sauce coated with small",
+          "price": "159"
         },
         {
-            "name": "maggie",
-            "dishes": [
-                {
-                    "name": "Veg Masala",
-                    "desc": "Classic Maggie with vegies and spice",
-                    "price": "69"
-                },
-                {
-                    "name": "Double Masala",
-                    "desc": "Maggie with double masala flavor n veggies",
-                    "price": "69"
-                },
-                {
-                    "name": "Exotic Maggie",
-                    "desc": "Chopped exotic veggies and spices",
-                    "price": "89"
-                },
-                {
-                    "name": "Chilly Garlic Maggie",
-                    "desc": "Spicy flavor Maggie",
-                    "price": "89"
-                },
-                {
-                    "name": "BBQ Maggie",
-                    "desc": "Maggie with veggies and barbeque flavor",
-                    "price": "89"
-                }
-            ]
-        },
-        {
-            "name": "indian",
-            "dishes": [
-                {
-                    "name": "Paneer Butter Masala",
-                    "desc": "Rich Makhni Gravy with mild taste",
-                    "price": "249"
-                },
-                {
-                    "name": "Paneer Chatpata",
-                    "desc": "Spicy and tangy cottage cheese serve with vegetables",
-                    "price": "259"
-                },
-                {
-                    "name": "Paneer Angara",
-                    "desc": "Spicy paneer with Julian vegetables",
-                    "price": "269"
-                },
-                {
-                    "name": "Mix Veg",
-                    "desc": "Onion gravy with bunch of veggies",
-                    "price": "199"
-                },
-                {
-                    "name": "Veg Khima",
-                    "desc": "Mid Spicy makhni gravy with fine chopped vegetables",
-                    "price": "219"
-                },
-                {
-                    "name": "Lahsooni Kofta",
-                    "desc": "Rich brown gravy with flavor of burnt garlic",
-                    "price": "259"
-                },
-                {
-                    "name": "Jeera Aloo",
-                    "desc": "Boiled aloo with cumin n chilly tadka",
-                    "price": "189"
-                },
-                {
-                    "name": "Dal Tadka",
-                    "desc": "Dal topped with red paprika and butter",
-                    "price": "199"
-                },
-                {
-                    "name": "Jeera Rice",
-                    "desc": "Hot aromatic rice with cumin tadka",
-                    "price": "99"
-                },
-                {
-                    "name": "Veg Pulao",
-                    "desc": "Mix veg pulao with aromatic flavor",
-                    "price": "149"
-                },
-                {
-                    "name": "Veg Biryani",
-                    "desc": "Desi aromatic rice with veg gravy combination",
-                    "price": "199"
-                },
-                {
-                    "name": "Veg Raita",
-                    "desc": "Chopped vegetables and aromatic spice",
-                    "price": "48"
-                },
-                {
-                    "name": "Malabar Paratha",
-                    "desc": "South Indian style paratha",
-                    "price": "29"
-                },
-                {
-                    "name": "Tava Roti",
-                    "desc": "Desi tava roti home style",
-                    "price": "29"
-                },
-                {
-                    "name": "Mix Veg Paratha",
-                    "desc": "Chopped veg stuff paratha",
-                    "price": "50"
-                },
-                {
-                    "name": "Paneer Paratha",
-                    "desc": "Grated panner n veggies stuff paratha",
-                    "price": "60"
-                },
-                {
-                    "name": "Samosa",
-                    "desc": "Rich flavour of punjabi cuisine served with flavoured dips",
-                    "price": "50"
-                }
-            ]
-        },
-        {
-            "name": "sizzler",
-            "dishes": [
-                {
-                    "name": "Mexican Sizzler",
-                    "desc": "Mexican rice served with curry, patty, sautéed veg and fries",
-                    "price": "499"
-                },
-                {
-                    "name": "Herb Sizzler",
-                    "desc": "Aromatic flavor Herbs served with cheese sauce, sautéed veg and fries",
-                    "price": "519"
-                },
-                {
-                    "name": "Oriental Sizzler",
-                    "desc": "Oriental style sizzler serve rice, Cottage Cheese Gravy, Sautéed Veg and fries",
-                    "price": "449"
-                },
-                {
-                    "name": "Pasta in Pasta",
-                    "desc": "Two flavor pasta in one plate along with Garlic bread, Sautéed Veg and fries",
-                    "price": "539"
-                }
-            ]
-        },
-        {
-            "name": "salad",
-            "dishes": [
-                {
-                    "name": "Greek Farmer Salad",
-                    "desc": "Fresh cut Vegies coated with in house flavor oil topped with cheese and olives",
-                    "price": "199"
-                },
-                {
-                    "name": "Classic Cesar Salad",
-                    "desc": "Herb crotons and ice burg coated with Cesar sauce topped with parmesan cheese",
-                    "price": "199"
-                },
-                {
-                    "name": "Sautéed cottage cheese",
-                    "desc": "High protein salad best for the healthy eater",
-                    "price": "199"
-                },
-                {
-                    "name": "Sautéed mushroom",
-                    "desc": "Sautéed Mushroom and veggies along with aromatic herbs",
-                    "price": "199"
-                }
-            ]
-        },
-        {
-            "name": "dessert",
-            "dishes": [
-                {
-                    "name": "Mud Brownie",
-                    "desc": "",
-                    "price": "119"
-                },
-                {
-                    "name": "Sizzling Brownie",
-                    "desc": "",
-                    "price": "199"
-                },
-                {
-                    "name": "Pan Cake",
-                    "desc": "",
-                    "price": "139"
-                },
-                {
-                    "name": "Waffle Chocalate",
-                    "desc": "",
-                    "price": "119"
-                }
-            ]
-        },
-        {
-            "name": "accomplishment",
-            "dishes": [
-                {
-                    "name": "Roasted Papad",
-                    "desc": "",
-                    "price": "19"
-                },
-                {
-                    "name": "Fried Papad",
-                    "desc": "",
-                    "price": "36"
-                },
-                {
-                    "name": "Masala Papad",
-                    "desc": "",
-                    "price": "48"
-                },
-                {
-                    "name": "Green Salad",
-                    "desc": "",
-                    "price": "119"
-                }
-            ]
-        },
-        {
-            "name": "mocktail",
-            "dishes": [
-                {
-                    "name": "Classic Mojito",
-                    "price": "119",
-                    "desc": "All time favorite refreshing drink"
-                },
-                {
-                    "name": "Watermelon Mojito",
-                    "price": "119",
-                    "desc": "Refreshment and tummy cooler comes together"
-                },
-                {
-                    "name": "Orange Mojito",
-                    "price": "119",
-                    "desc": "Tangy flavor of orange along with mint"
-                },
-                {
-                    "name": "Berry Lemonade ",
-                    "price": "159",
-                    "desc": "Cranberry flavor and lemonade combo"
-                },
-                {
-                    "name": "Chilly Orange",
-                    "price": "159",
-                    "desc": "Need spicy touch lets try it"
-                },
-                {
-                    "name": "Beer Mocktail ",
-                    "price": "209",
-                    "desc": "Non alcoholic drink beer flavored"
-                },
-                {
-                    "name": "Kala Khatta",
-                    "price": "119 ",
-                    "desc": "Original kala khatta with the twist of mocktail"
-                },
-                {
-                    "name": "Masala Lemonad",
-                    "price": "119",
-                    "desc": "Refreshing lemonade"
-                },
-                {
-                    "name": "Kaccha Aam ",
-                    "price": "119",
-                    "desc": "Raw mango flavor on cool mocktail"
-                },
-                {
-                    "name": "Imli ",
-                    "price": "119",
-                    "desc": "Bachpan ki yaado ke saath"
-                }
-            ]
-        },
-        {
-            "name": "shake",
-            "dishes": [
-                {
-                    "name": "Nutella Shake",
-                    "price": "249",
-                    "desc": ""
-                },
-                {
-                    "name": "Oreo Shake",
-                    "price": "219",
-                    "desc": ""
-                },
-                {
-                    "name": "Kitket Shake",
-                    "price": "239",
-                    "desc": ""
-                },
-                {
-                    "name": "Chocolate Chips",
-                    "price": "219",
-                    "desc": ""
-                },
-                {
-                    "name": "Rose Faluda",
-                    "price": "199",
-                    "desc": ""
-                }
-            ]
-        },
-        {
-            "name": "hot-coffee",
-            "dishes": [
-                {
-                    "name": "Black coffee",
-                    "price": "35",
-                    "desc": ""
-                },
-                {
-                    "name": "Milk Coffee",
-                    "price": "36",
-                    "desc": ""
-                },
-                {
-                    "name": "Chocolate Coffee",
-                    "price": "65",
-                    "desc": ""
-                },
-                {
-                    "name": "Hot Chocolate With Biscuit cup",
-                    "price": "60",
-                    "desc": ""
-                },
-                {
-                    "name": "Classic Hot Chocolate",
-                    "price": "70",
-                    "desc": ""
-                }
-            ]
-        },
-        {
-            "name": "beverages",
-            "dishes": [
-                {
-                    "name": "Cold Drink ",
-                    "price": "38",
-                    "desc": ""
-                },
-                {
-                    "name": "Lemon ice Tea ",
-                    "price": "129",
-                    "desc": ""
-                },
-                {
-                    "name": "Peach Ice Tea ",
-                    "price": "138",
-                    "desc": ""
-                },
-                {
-                    "name": "Butter Milk ",
-                    "price": "38",
-                    "desc": ""
-                }
-            ]
-        },
-        {
-            "name": "soup",
-            "dishes": [
-                {
-                    "name": "Manchow ",
-                    "price": "99",
-                    "desc": "Flavored classic chinese soup"
-                },
-                {
-                    "name": "Hot N Sour",
-                    "price": "99",
-                    "desc": "Spiciness of chilly and tangy taste of citric"
-                },
-                {
-                    "name": "Lemon Coriander ",
-                    "price": "99",
-                    "desc": "Refreshing flavor with bite of coriander and garlic"
-                },
-                {
-                    "name": "Burnt Garlic Soup ",
-                    "price": "119",
-                    "desc": "Mid spicy soup accomplished flavor of burnt garlic"
-                }
-            ]
-        },
-        {
-            "name": "continental",
-            "dishes": [
-                {
-                    "name": "Maxican Burrito Bowl",
-                    "price": "259",
-                    "desc": "Mexican rice served with curry n salsa"
-                },
-                {
-                    "name": "Cilantro Rice With Garlic Sauce",
-                    "price": "249",
-                    "desc": "Flavored cilantro rice served with cheese burnt garlic sauce"
-                },
-                {
-                    "name": "Herb rice with Cheese sauce",
-                    "price": "249",
-                    "desc": "Different flavor herbs served with cheese sauce"
-                },
-                {
-                    "name": "Mexican Chilly Beans ",
-                    "price": "119",
-                    "desc": "Soup load with Mexican flavor and bite of nachos"
-                },
-                {
-                    "name": "Cream of Tomato ",
-                    "price": "99",
-                    "desc": "Cream of Tomato "
-                },
-                {
-                    "name": "Corn Cheese Ball",
-                    "price": "229",
-                    "desc": "Roasted corn stuff with cheese and spices"
-                },
-                {
-                    "name": "Veg Croquettes ",
-                    "price": "209",
-                    "desc": "Chopped exotic vegetables stuff with cheese and potatoes"
-                },
-                {
-                    "name": "Aranchini Balls",
-                    "price": "249",
-                    "desc": "Deep fried balls stuff with exotic vegetables and cheese"
-                },
-                {
-                    "name": "Baffalo Cottage Cheese ",
-                    "price": "279",
-                    "desc": "Deep fried paneer toasted in famous baffalo sauce"
-                },
-                {
-                    "name": "Paneer Satay",
-                    "price": "279",
-                    "desc": "Pan toasted paneer and vegetables serve with house sauce"
-                },
-                {
-                    "name": "Masala Khichiya",
-                    "price": "99",
-                    "desc": "Khichiya papad with fusion of Indian and Continental style"
-                },
-                {
-                    "name": "Mexican Masala Kurkuri Bites",
-                    "price": "159",
-                    "desc": "Nachos served with fusion style of Indian and Mexican style along with cheese sauce"
-                },
-                {
-                    "name": "Beans Nachos",
-                    "price": "249",
-                    "desc": "Nachos served with Mexican stuffing and sour cream"
-                },
-                {
-                    "name": "Cheese Nachos ",
-                    "price": "239",
-                    "desc": "Nachos stuff with two type of cheese sauce"
-                },
-                {
-                    "name": "Cottage cheese taxo",
-                    "price": "249",
-                    "desc": "Nachos served with Cottage cheese guacamole"
-                },
-                {
-                    "name": "Quesadilla ",
-                    "price": "219",
-                    "desc": "Crunchy tortilla stuff with fresh vegies Mexican marinating and cheese"
-                }
-            ]
-        },
-        {
-            "name": "chinese",
-            "dishes": [
-                {
-                    "name": "Veg Manchurian ",
-                    "price": "169",
-                    "desc": "Vegetable balls toasted in classic sauce"
-                },
-                {
-                    "name": "Green Manchurian ",
-                    "price": "189",
-                    "desc": "Vegetable balls toasted with cheese spinach "
-                },
-                {
-                    "name": "Paneer Chilly ",
-                    "price": "229",
-                    "desc": "Coated Fried Paneer toasted in classic chilly"
-                },
-                {
-                    "name": "Paneer Chilly Gravy",
-                    "price": "249",
-                    "desc": "Coated Fried Paneer floated in rich gravy"
-                },
-                {
-                    "name": "BBQ Paneer ",
-                    "price": "229",
-                    "desc": "Smoky flavor oriental style Paneer"
-                },
-                {
-                    "name": "Paneer Red Pepper ",
-                    "price": "249",
-                    "desc": "Spicy flavor sauce toasted with Paner "
-                },
-                {
-                    "name": "Veg Crispy ",
-                    "price": "209",
-                    "desc": "Crunchy vegetables toasted with mid spicy"
-                },
-                {
-                    "name": "Fried Rice",
-                    "price": "189",
-                    "desc": "Classic aromatic chinese rice"
-                },
-                {
-                    "name": "Schezwan Rice",
-                    "price": "199",
-                    "desc": "Oriental spicy rice with vegetables"
-                },
-                {
-                    "name": "Burnt Garlic",
-                    "price": "229",
-                    "desc": "Aroma and taste of burnt garlic in oriental rice"
-                },
-                {
-                    "name": "Triple Rice",
-                    "price": "279",
-                    "desc": "Three types of rice along with veg exotic gravy"
-                },
-                {
-                    "name": "Hakka Noodles",
-                    "price": "169",
-                    "desc": "Classic aromatic chinese noodles"
-                },
-                {
-                    "name": "Burnt Garlic Noodles",
-                    "price": "189",
-                    "desc": "Noodles toasted"
-                },
-                {
-                    "name": "Scezwan Noodles",
-                    "price": "179",
-                    "desc": "Spicy aromatic noodles"
-                },
-                {
-                    "name": "Exotic Veg in Garlic Sauce",
-                    "price": "239",
-                    "desc": "Roasted veg served with garlic sauce gravy"
-                }
-            ]
-        },
-        {
-            "name": "fries",
-            "dishes": [
-                {
-                    "name": "Plain-chatpata peri peri ",
-                    "price": "129",
-                    "desc": "Fries with the choice of flavor"
-                },
-                {
-                    "name": "Cheesy ",
-                    "price": "149",
-                    "desc": "Cheese loaded fries"
-                },
-                {
-                    "name": "Chilly Garlic Fries",
-                    "price": "138",
-                    "desc": "Fries toasted with garlic and chilly"
-                }
-            ]
-        },
-        {
-            "name": "bread",
-            "dishes": [
-                {
-                    "name": "paneer makhni garlic bread",
-                    "price": "189",
-                    "desc": "Maknhni flavor cottage cheese topped on garlic bread"
-                },
-                {
-                    "name": "Crostini - Two Flavors ",
-                    "price": "199",
-                    "desc": "Two Flavor bread topped with cheese "
-                },
-                {
-                    "name": "Spicy Garlic Bread ",
-                    "price": "169",
-                    "desc": "Bread topped with in house special sprinklers"
-                },
-                {
-                    "name": "Cheese Garlic Bread ",
-                    "price": "149",
-                    "desc": "Classic Cheese Bread"
-                },
-                {
-                    "name": "OTC Garlic Bread ",
-                    "price": "179",
-                    "desc": "Garlic bread topped with vegetables"
-                },
-                {
-                    "name": "Pulled Cheese Garlic Bread",
-                    "price": "209",
-                    "desc": "House special garlic bread "
-                }
-            ]
-        },
-        {
-            "name": "lebanese",
-            "dishes": [
-                {
-                    "name": "Hummus Platter ",
-                    "price": "319",
-                    "desc": "Classic Lebne Platter served with different type of hummus and accomplishments"
-                },
-                {
-                    "name": "Falafel Platter",
-                    "price": "339",
-                    "desc": "Platter served with falafel hummus and accomplishment"
-                }
-            ]
-        },
-        {
-            "name": "wrap",
-            "dishes": [
-                {
-                    "name": "Healthy Veg wrap ",
-                    "price": "179",
-                    "desc": "Best wrap for the diet person lots of vegetables and less of carb"
-                },
-                {
-                    "name": "Mexican Burrito Wrap",
-                    "price": "199",
-                    "desc": "Wrap stuff with Mexican rice and cheese topped with vegetables"
-                },
-                {
-                    "name": "Tandoori Paneer ",
-                    "price": "199",
-                    "desc": "Shawarma with the twist taste along with Indian Spice"
-                },
-                {
-                    "name": "Mushroom wrap",
-                    "price": "179",
-                    "desc": "Sautéed mushroom stuff along with toasted vegies and cheese"
-                },
-                {
-                    "name": "Falafel Wrap",
-                    "price": "219",
-                    "desc": "Classic wrap stuff with Falafel and hummus"
-                },
-                {
-                    "name": "Falafel Pocket",
-                    "price": "239",
-                    "desc": "Fresh cut vegies stuff in pita pocket along with hummus and sour cream"
-                }
-            ]
+          "name": "Dostea Special Toast Sandwich",
+          "desc": "Melted cheese with sautéed vegies stuff between crunchy breads",
+          "price": "179"
         }
-    ]
+      ]
+    },
+    {
+      "name": "buns",
+      "dishes": [
+        {
+          "name": "Plain Maska Bun",
+          "desc": "Best combination with tea",
+          "price": "29"
+        },
+        {
+          "name": "Masala Maska Bun",
+          "desc": "Bun servers with lots of butter and Indian species",
+          "price": "48"
+        },
+        {
+          "name": "Peri Peri Maska Bun",
+          "desc": "Sweetness of bun along with in house special spice",
+          "price": "48"
+        },
+        {
+          "name": "Tandoori Maska Bun",
+          "desc": "Indian taste lover",
+          "price": "48"
+        }
+      ]
+    },
+    {
+      "name": "pizza",
+      "dishes": [
+        {
+          "name": "Margarita",
+          "desc": "Classic cheese Pizza topped with Tomato and basil",
+          "price": "259"
+        },
+        {
+          "name": "Pepper Pizza",
+          "desc": "5 types of peppers on pizza",
+          "price": "269"
+        },
+        {
+          "name": "Garden Fresh",
+          "desc": "Load with full exotic vegetables",
+          "price": "269"
+        },
+        {
+          "name": "Peri Peri Paneer Pizza",
+          "desc": "Need spicy pizza this is the best choice for you",
+          "price": "319"
+        },
+        {
+          "name": "Paneer Tikka Pizza",
+          "desc": "Paneer on top along with Indian spices flavor",
+          "price": "319"
+        },
+        {
+          "name": "Hawaiin Pizza",
+          "desc": "Jalapeno Pineapple topped on pizza",
+          "price": "269"
+        },
+        {
+          "name": "Mexican",
+          "desc": "Fusion of Italian n Mexican taste together",
+          "price": "319"
+        }
+      ]
+    },
+    {
+      "name": "pasta",
+      "dishes": [
+        {
+          "name": "Creamy Cheese",
+          "desc": "Classic béchamel cheese sauce pasta with exotic vegies",
+          "price": "259"
+        },
+        {
+          "name": "Pica to Redasto",
+          "desc": "Combination of two sauce with mid spicy n cheese flavor",
+          "price": "259"
+        },
+        {
+          "name": "Tomatino Basil",
+          "desc": "Classic arrabiata sauce floverd with basil",
+          "price": "249"
+        }
+      ]
+    },
+    {
+      "name": "tea",
+      "dishes": [
+        {
+          "name": "Make your Own Tea",
+          "sprice": "30",
+          "lprice": "45",
+          "desc": ""
+        },
+        {
+          "name": "Sukun Wali Chai",
+          "sprice": "30",
+          "lprice": "45",
+          "desc": ""
+        },
+        {
+          "name": "Chocolate chai",
+          "price": "50",
+          "desc": ""
+        },
+        {
+          "name": "Green Tea",
+          "price": "65",
+          "desc": ""
+        }
+      ]
+    },
+    {
+      "name": "baked-dish",
+      "dishes": [
+        {
+          "name": "Corn Spinach Lasagna",
+          "desc": "Roasted corn and spinach baked with lots of cheese",
+          "price": "269"
+        },
+        {
+          "name": "Paneer Makhni Lasagna",
+          "desc": "Fusion of Indian and Italian food baked dish",
+          "price": "289"
+        },
+        {
+          "name": "Enchiladas",
+          "desc": "Mexican authentic backed dish",
+          "price": "239"
+        }
+      ]
+    },
+    {
+      "name": "maggie",
+      "dishes": [
+        {
+          "name": "Veg Masala",
+          "desc": "Classic Maggie with vegies and spice",
+          "price": "69"
+        },
+        {
+          "name": "Double Masala",
+          "desc": "Maggie with double masala flavor n veggies",
+          "price": "69"
+        },
+        {
+          "name": "Exotic Maggie",
+          "desc": "Chopped exotic veggies and spices",
+          "price": "89"
+        },
+        {
+          "name": "Chilly Garlic Maggie",
+          "desc": "Spicy flavor Maggie",
+          "price": "89"
+        },
+        {
+          "name": "BBQ Maggie",
+          "desc": "Maggie with veggies and barbeque flavor",
+          "price": "89"
+        }
+      ]
+    },
+    {
+      "name": "indian",
+      "dishes": [
+        {
+          "name": "Paneer Butter Masala",
+          "desc": "Rich Makhni Gravy with mild taste",
+          "price": "249"
+        },
+        {
+          "name": "Paneer Chatpata",
+          "desc": "Spicy and tangy cottage cheese serve with vegetables",
+          "price": "259"
+        },
+        {
+          "name": "Paneer Angara",
+          "desc": "Spicy paneer with Julian vegetables",
+          "price": "269"
+        },
+        {
+          "name": "Mix Veg",
+          "desc": "Onion gravy with bunch of veggies",
+          "price": "199"
+        },
+        {
+          "name": "Veg Khima",
+          "desc": "Mid Spicy makhni gravy with fine chopped vegetables",
+          "price": "219"
+        },
+        {
+          "name": "Lahsooni Kofta",
+          "desc": "Rich brown gravy with flavor of burnt garlic",
+          "price": "259"
+        },
+        {
+          "name": "Jeera Aloo",
+          "desc": "Boiled aloo with cumin n chilly tadka",
+          "price": "189"
+        },
+        {
+          "name": "Dal Tadka",
+          "desc": "Dal topped with red paprika and butter",
+          "price": "199"
+        },
+        {
+          "name": "Jeera Rice",
+          "desc": "Hot aromatic rice with cumin tadka",
+          "price": "99"
+        },
+        {
+          "name": "Veg Pulao",
+          "desc": "Mix veg pulao with aromatic flavor",
+          "price": "149"
+        },
+        {
+          "name": "Veg Biryani",
+          "desc": "Desi aromatic rice with veg gravy combination",
+          "price": "199"
+        },
+        {
+          "name": "Veg Raita",
+          "desc": "Chopped vegetables and aromatic spice",
+          "price": "48"
+        },
+        {
+          "name": "Malabar Paratha",
+          "desc": "South Indian style paratha",
+          "price": "29"
+        },
+        {
+          "name": "Tava Roti",
+          "desc": "Desi tava roti home style",
+          "price": "29"
+        },
+        {
+          "name": "Mix Veg Paratha",
+          "desc": "Chopped veg stuff paratha",
+          "price": "50"
+        },
+        {
+          "name": "Paneer Paratha",
+          "desc": "Grated panner n veggies stuff paratha",
+          "price": "60"
+        },
+        {
+          "name": "Samosa",
+          "desc": "Rich flavour of punjabi cuisine served with flavoured dips",
+          "price": "50"
+        }
+      ]
+    },
+    {
+      "name": "sizzler",
+      "dishes": [
+        {
+          "name": "Mexican Sizzler",
+          "desc": "Mexican rice served with curry, patty, sautéed veg and fries",
+          "price": "499"
+        },
+        {
+          "name": "Herb Sizzler",
+          "desc": "Aromatic flavor Herbs served with cheese sauce, sautéed veg and fries",
+          "price": "519"
+        },
+        {
+          "name": "Oriental Sizzler",
+          "desc": "Oriental style sizzler serve rice, Cottage Cheese Gravy, Sautéed Veg and fries",
+          "price": "449"
+        },
+        {
+          "name": "Pasta in Pasta",
+          "desc": "Two flavor pasta in one plate along with Garlic bread, Sautéed Veg and fries",
+          "price": "539"
+        }
+      ]
+    },
+    {
+      "name": "salad",
+      "dishes": [
+        {
+          "name": "Greek Farmer Salad",
+          "desc": "Fresh cut Vegies coated with in house flavor oil topped with cheese and olives",
+          "price": "199"
+        },
+        {
+          "name": "Classic Cesar Salad",
+          "desc": "Herb crotons and ice burg coated with Cesar sauce topped with parmesan cheese",
+          "price": "199"
+        },
+        {
+          "name": "Sautéed cottage cheese",
+          "desc": "High protein salad best for the healthy eater",
+          "price": "199"
+        },
+        {
+          "name": "Sautéed mushroom",
+          "desc": "Sautéed Mushroom and veggies along with aromatic herbs",
+          "price": "199"
+        }
+      ]
+    },
+    {
+      "name": "dessert",
+      "dishes": [
+        {
+          "name": "Mud Brownie",
+          "desc": "",
+          "price": "119"
+        },
+        {
+          "name": "Sizzling Brownie",
+          "desc": "",
+          "price": "199"
+        },
+        {
+          "name": "Pan Cake",
+          "desc": "",
+          "price": "139"
+        },
+        {
+          "name": "Waffle Chocalate",
+          "desc": "",
+          "price": "119"
+        }
+      ]
+    },
+    {
+      "name": "accomplishment",
+      "dishes": [
+        {
+          "name": "Roasted Papad",
+          "desc": "",
+          "price": "19"
+        },
+        {
+          "name": "Fried Papad",
+          "desc": "",
+          "price": "36"
+        },
+        {
+          "name": "Masala Papad",
+          "desc": "",
+          "price": "48"
+        },
+        {
+          "name": "Green Salad",
+          "desc": "",
+          "price": "119"
+        }
+      ]
+    },
+    {
+      "name": "mocktail",
+      "dishes": [
+        {
+          "name": "Classic Mojito",
+          "price": "119",
+          "desc": "All time favorite refreshing drink"
+        },
+        {
+          "name": "Watermelon Mojito",
+          "price": "119",
+          "desc": "Refreshment and tummy cooler comes together"
+        },
+        {
+          "name": "Orange Mojito",
+          "price": "119",
+          "desc": "Tangy flavor of orange along with mint"
+        },
+        {
+          "name": "Berry Lemonade ",
+          "price": "159",
+          "desc": "Cranberry flavor and lemonade combo"
+        },
+        {
+          "name": "Chilly Orange",
+          "price": "159",
+          "desc": "Need spicy touch lets try it"
+        },
+        {
+          "name": "Beer Mocktail ",
+          "price": "209",
+          "desc": "Non alcoholic drink beer flavored"
+        },
+        {
+          "name": "Kala Khatta",
+          "price": "119 ",
+          "desc": "Original kala khatta with the twist of mocktail"
+        },
+        {
+          "name": "Masala Lemonad",
+          "price": "119",
+          "desc": "Refreshing lemonade"
+        },
+        {
+          "name": "Kaccha Aam ",
+          "price": "119",
+          "desc": "Raw mango flavor on cool mocktail"
+        },
+        {
+          "name": "Imli ",
+          "price": "119",
+          "desc": "Bachpan ki yaado ke saath"
+        }
+      ]
+    },
+    {
+      "name": "shake",
+      "dishes": [
+        {
+          "name": "Nutella Shake",
+          "price": "249",
+          "desc": ""
+        },
+        {
+          "name": "Oreo Shake",
+          "price": "219",
+          "desc": ""
+        },
+        {
+          "name": "Kitket Shake",
+          "price": "239",
+          "desc": ""
+        },
+        {
+          "name": "Chocolate Chips",
+          "price": "219",
+          "desc": ""
+        },
+        {
+          "name": "Rose Faluda",
+          "price": "199",
+          "desc": ""
+        }
+      ]
+    },
+    {
+      "name": "hot-coffee",
+      "dishes": [
+        {
+          "name": "Black coffee",
+          "price": "35",
+          "desc": ""
+        },
+        {
+          "name": "Milk Coffee",
+          "price": "36",
+          "desc": ""
+        },
+        {
+          "name": "Chocolate Coffee",
+          "price": "65",
+          "desc": ""
+        },
+        {
+          "name": "Hot Chocolate With Biscuit cup",
+          "price": "60",
+          "desc": ""
+        },
+        {
+          "name": "Classic Hot Chocolate",
+          "price": "70",
+          "desc": ""
+        }
+      ]
+    },
+    {
+      "name": "beverages",
+      "dishes": [
+        {
+          "name": "Cold Drink ",
+          "price": "38",
+          "desc": ""
+        },
+        {
+          "name": "Lemon ice Tea ",
+          "price": "129",
+          "desc": ""
+        },
+        {
+          "name": "Peach Ice Tea ",
+          "price": "138",
+          "desc": ""
+        },
+        {
+          "name": "Butter Milk ",
+          "price": "38",
+          "desc": ""
+        }
+      ]
+    },
+    {
+      "name": "soup",
+      "dishes": [
+        {
+          "name": "Manchow ",
+          "price": "99",
+          "desc": "Flavored classic chinese soup"
+        },
+        {
+          "name": "Hot N Sour",
+          "price": "99",
+          "desc": "Spiciness of chilly and tangy taste of citric"
+        },
+        {
+          "name": "Lemon Coriander ",
+          "price": "99",
+          "desc": "Refreshing flavor with bite of coriander and garlic"
+        },
+        {
+          "name": "Burnt Garlic Soup ",
+          "price": "119",
+          "desc": "Mid spicy soup accomplished flavor of burnt garlic"
+        }
+      ]
+    },
+    {
+      "name": "continental",
+      "dishes": [
+        {
+          "name": "Maxican Burrito Bowl",
+          "price": "259",
+          "desc": "Mexican rice served with curry n salsa"
+        },
+        {
+          "name": "Cilantro Rice With Garlic Sauce",
+          "price": "249",
+          "desc": "Flavored cilantro rice served with cheese burnt garlic sauce"
+        },
+        {
+          "name": "Herb rice with Cheese sauce",
+          "price": "249",
+          "desc": "Different flavor herbs served with cheese sauce"
+        },
+        {
+          "name": "Mexican Chilly Beans ",
+          "price": "119",
+          "desc": "Soup load with Mexican flavor and bite of nachos"
+        },
+        {
+          "name": "Cream of Tomato ",
+          "price": "99",
+          "desc": "Cream of Tomato "
+        },
+        {
+          "name": "Corn Cheese Ball",
+          "price": "229",
+          "desc": "Roasted corn stuff with cheese and spices"
+        },
+        {
+          "name": "Veg Croquettes ",
+          "price": "209",
+          "desc": "Chopped exotic vegetables stuff with cheese and potatoes"
+        },
+        {
+          "name": "Aranchini Balls",
+          "price": "249",
+          "desc": "Deep fried balls stuff with exotic vegetables and cheese"
+        },
+        {
+          "name": "Baffalo Cottage Cheese ",
+          "price": "279",
+          "desc": "Deep fried paneer toasted in famous baffalo sauce"
+        },
+        {
+          "name": "Paneer Satay",
+          "price": "279",
+          "desc": "Pan toasted paneer and vegetables serve with house sauce"
+        },
+        {
+          "name": "Masala Khichiya",
+          "price": "99",
+          "desc": "Khichiya papad with fusion of Indian and Continental style"
+        },
+        {
+          "name": "Mexican Masala Kurkuri Bites",
+          "price": "159",
+          "desc": "Nachos served with fusion style of Indian and Mexican style along with cheese sauce"
+        },
+        {
+          "name": "Beans Nachos",
+          "price": "249",
+          "desc": "Nachos served with Mexican stuffing and sour cream"
+        },
+        {
+          "name": "Cheese Nachos ",
+          "price": "239",
+          "desc": "Nachos stuff with two type of cheese sauce"
+        },
+        {
+          "name": "Cottage cheese taxo",
+          "price": "249",
+          "desc": "Nachos served with Cottage cheese guacamole"
+        },
+        {
+          "name": "Quesadilla ",
+          "price": "219",
+          "desc": "Crunchy tortilla stuff with fresh vegies Mexican marinating and cheese"
+        }
+      ]
+    },
+    {
+      "name": "chinese",
+      "dishes": [
+        {
+          "name": "Veg Manchurian ",
+          "price": "169",
+          "desc": "Vegetable balls toasted in classic sauce"
+        },
+        {
+          "name": "Green Manchurian ",
+          "price": "189",
+          "desc": "Vegetable balls toasted with cheese spinach "
+        },
+        {
+          "name": "Paneer Chilly ",
+          "price": "229",
+          "desc": "Coated Fried Paneer toasted in classic chilly"
+        },
+        {
+          "name": "Paneer Chilly Gravy",
+          "price": "249",
+          "desc": "Coated Fried Paneer floated in rich gravy"
+        },
+        {
+          "name": "BBQ Paneer ",
+          "price": "229",
+          "desc": "Smoky flavor oriental style Paneer"
+        },
+        {
+          "name": "Paneer Red Pepper ",
+          "price": "249",
+          "desc": "Spicy flavor sauce toasted with Paner "
+        },
+        {
+          "name": "Veg Crispy ",
+          "price": "209",
+          "desc": "Crunchy vegetables toasted with mid spicy"
+        },
+        {
+          "name": "Fried Rice",
+          "price": "189",
+          "desc": "Classic aromatic chinese rice"
+        },
+        {
+          "name": "Schezwan Rice",
+          "price": "199",
+          "desc": "Oriental spicy rice with vegetables"
+        },
+        {
+          "name": "Burnt Garlic",
+          "price": "229",
+          "desc": "Aroma and taste of burnt garlic in oriental rice"
+        },
+        {
+          "name": "Triple Rice",
+          "price": "279",
+          "desc": "Three types of rice along with veg exotic gravy"
+        },
+        {
+          "name": "Hakka Noodles",
+          "price": "169",
+          "desc": "Classic aromatic chinese noodles"
+        },
+        {
+          "name": "Burnt Garlic Noodles",
+          "price": "189",
+          "desc": "Noodles toasted"
+        },
+        {
+          "name": "Scezwan Noodles",
+          "price": "179",
+          "desc": "Spicy aromatic noodles"
+        },
+        {
+          "name": "Exotic Veg in Garlic Sauce",
+          "price": "239",
+          "desc": "Roasted veg served with garlic sauce gravy"
+        }
+      ]
+    },
+    {
+      "name": "fries",
+      "dishes": [
+        {
+          "name": "Plain-chatpata peri peri ",
+          "price": "129",
+          "desc": "Fries with the choice of flavor"
+        },
+        {
+          "name": "Cheesy ",
+          "price": "149",
+          "desc": "Cheese loaded fries"
+        },
+        {
+          "name": "Chilly Garlic Fries",
+          "price": "138",
+          "desc": "Fries toasted with garlic and chilly"
+        }
+      ]
+    },
+    {
+      "name": "bread",
+      "dishes": [
+        {
+          "name": "paneer makhni garlic bread",
+          "price": "189",
+          "desc": "Maknhni flavor cottage cheese topped on garlic bread"
+        },
+        {
+          "name": "Crostini - Two Flavors ",
+          "price": "199",
+          "desc": "Two Flavor bread topped with cheese "
+        },
+        {
+          "name": "Spicy Garlic Bread ",
+          "price": "169",
+          "desc": "Bread topped with in house special sprinklers"
+        },
+        {
+          "name": "Cheese Garlic Bread ",
+          "price": "149",
+          "desc": "Classic Cheese Bread"
+        },
+        {
+          "name": "OTC Garlic Bread ",
+          "price": "179",
+          "desc": "Garlic bread topped with vegetables"
+        },
+        {
+          "name": "Pulled Cheese Garlic Bread",
+          "price": "209",
+          "desc": "House special garlic bread "
+        }
+      ]
+    },
+    {
+      "name": "lebanese",
+      "dishes": [
+        {
+          "name": "Hummus Platter ",
+          "price": "319",
+          "desc": "Classic Lebne Platter served with different type of hummus and accomplishments"
+        },
+        {
+          "name": "Falafel Platter",
+          "price": "339",
+          "desc": "Platter served with falafel hummus and accomplishment"
+        }
+      ]
+    },
+    {
+      "name": "wrap",
+      "dishes": [
+        {
+          "name": "Healthy Veg wrap ",
+          "price": "179",
+          "desc": "Best wrap for the diet person lots of vegetables and less of carb"
+        },
+        {
+          "name": "Mexican Burrito Wrap",
+          "price": "199",
+          "desc": "Wrap stuff with Mexican rice and cheese topped with vegetables"
+        },
+        {
+          "name": "Tandoori Paneer ",
+          "price": "199",
+          "desc": "Shawarma with the twist taste along with Indian Spice"
+        },
+        {
+          "name": "Mushroom wrap",
+          "price": "179",
+          "desc": "Sautéed mushroom stuff along with toasted vegies and cheese"
+        },
+        {
+          "name": "Falafel Wrap",
+          "price": "219",
+          "desc": "Classic wrap stuff with Falafel and hummus"
+        },
+        {
+          "name": "Falafel Pocket",
+          "price": "239",
+          "desc": "Fresh cut vegies stuff in pita pocket along with hummus and sour cream"
+        }
+      ]
+    }
+  ]
 }
