@@ -13,7 +13,7 @@ export default function Middle() {
     const height = window.innerHeight;
     console.log(width,'dfgds')
     return (
-        <div style={{width}}>
+        <div style={{width}} className="overflow-hidden">
             <DemoCarousel />
             <div className="h-10"></div>
             <div className="flex flex-col-reverse md:flex-row text-center mt-5 md:pl-20 w-full justify-start md:items-center relative md:h-[500px]">
