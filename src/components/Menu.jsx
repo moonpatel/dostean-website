@@ -22,6 +22,7 @@ import pizza from '../svg/pizza.svg'
 import maggie from '../svg/maggie.svg'
 import salad from '../svg/salad.svg'
 import dessert from '../svg/dessert.svg'
+import HeroImage from './HeroImage'
 
 console.log(dishes)
 const Menu = () => {
@@ -33,10 +34,11 @@ const Menu = () => {
     return (
         <>
             <Navbar />
-            <div className='h-32'></div>
-            <h1 className='text-4xl text-center my-5'>Our Menu</h1>
-            <div className='mb-32'>
-                <ul className='flex flex-wrap gap-5 gap-x-3 justify-center px-10 my-3'>
+            <HeroImage url="https://images.unsplash.com/photo-1587574293340-e0011c4e8ecf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzV8fHJlc3RhdXJhbnR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" title="Our Menu" subtitle="Savour your mouth with our delicious dishes." />
+            {/* <div className='h-32'></div> */}
+            {/* <h1 className='text-4xl text-center my-5'>Our Menu</h1> */}
+            <div className='mb-32 mt-10'>
+                <ul className='flex flex-wrap gap-5 gap-x-4 justify-center px-10 my-3'>
                     <NavLink className={activeStateFunction} to='mocktail'>
                         <li className='p-2 flex items-center'>
                             <img src={Mocktail} alt='' className=' w-5' />
