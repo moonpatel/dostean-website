@@ -8,14 +8,13 @@ export default function Footer() {
         <div class="md:flex md:justify-between">
           <div class="mb-6 md:mb-0">
             <a href="#" class="flex items-center">
-              <img
-                src={Logo}
-                class="h-8 mr-3"
-                alt="Dostean Logo"
-              />
-              <span class="self-center text-2xl font-semibold whitespace-nowrap text-orange-400">
-                DOSTEA<sup>n</sup>
-              </span>
+              <img src={Logo} class="h-8 mr-3" alt="Dostean Logo" />
+              <h1 className="text-orange-400 Bantayog text-lg">
+                DOSTEA
+                <sup>
+                  <i className="Allura">n</i>
+                </sup>
+              </h1>
             </a>
           </div>
           <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
@@ -61,8 +60,10 @@ export default function Footer() {
             </div>
           </div>
           <div className="qr flex">
-            <img src={qr} className="h-20 mt-4"/>
-            <p className="text-white mt-16 ml-4">For Payment Use this QR-Code</p>
+            <img src={qr} className="h-20 mt-4" />
+            <p className="text-white mt-16 ml-4">
+              For Payment Use this QR-Code
+            </p>
           </div>
         </div>
         <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
@@ -128,8 +129,7 @@ export default function Footer() {
             <a
               href="#"
               class="text-gray-500 hover:text-gray-100 dark:hover:text-white"
-            >
-            </a>
+            ></a>
           </div>
         </div>
       </footer>
