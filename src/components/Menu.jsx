@@ -26,8 +26,9 @@ import dessert from '../svg/dessert.svg'
 import HeroImage from './HeroImage'
 
 let allDishes = [];
-for (let section of dishes) {
-    let arr = section.dishes.map(dish => dish);
+for (let i=0; i<dishes.length ; i++ ) {
+    let arr = dishes[i].dishes
+    console.log(arr)
     allDishes.push(...arr);
 }
 console.log(allDishes);
