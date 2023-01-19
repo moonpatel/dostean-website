@@ -10,11 +10,19 @@ import Footer from "./home_component/Footer";
 const AboutUs = () => {
     const [v1play, setv1Play] = useState(false)
     const [v2play, setv2Play] = useState(false)
+    const [v3play, setv3Play] = useState(false)
+    const [v4play, setv4Play] = useState(false)
+
 
     return (
         <>
             <Navbar />
-            <HeroImage url="" title="About Us" />
+            <div className={`bg-blend-multiply bg-black/50 relative w-full h-[360px] md:h-[480px] bg-center bg-cover -z-10 bg-[url('/i2.jpg')] `}>
+                <div className='absolute top-1/3 text-center w-full z-0'>
+                    <h1 className='text-white text-4xl md:text-8xl fontmerienda my-2 md:my-5'>About Us</h1>
+                    <p className='text-yellow1 tracking-widest font-medium text-sm md:text-lg'>Get to know more about us</p>
+                </div>
+            </div>
             <div className="flex flex-col w-full">
                 <div className="birthday flex flex-col md:flex-row items-center text-center md:text-left">
                     <div className="line fontmerienda text-2xl w-full md:w-1/2 px-5 my-5">
@@ -56,6 +64,16 @@ const AboutUs = () => {
                         <video src={v2} onClick={evt => {
                             v2play ? evt.target.pause() : evt.target.play()
                             setv2Play(prev => !prev);
+
+                        }} controls></video>
+                        <video src={v3} onClick={evt => {
+                            v3play ? evt.target.pause() : evt.target.play()
+                            setv3Play(prev => !prev);
+
+                        }} controls></video>
+                        <video src={v4} onClick={evt => {
+                            v4play ? evt.target.pause() : evt.target.play()
+                            setv4Play(prev => !prev);
 
                         }} controls></video>
                     </div>

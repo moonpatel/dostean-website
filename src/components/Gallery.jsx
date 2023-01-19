@@ -23,7 +23,13 @@ const Gallery = () => {
     return (
         <React.Fragment>
             <Navbar />
-            <HeroImage url={"https://images.unsplash.com/photo-1522784081430-8ac6a122cbc8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"} title="Image Gallery" subtitle="Get a glimpse of our authentic dishes." />
+            <div className={`bg-blend-multiply bg-black/50 relative w-full h-[360px] md:h-[480px] bg-center bg-cover -z-10 bg-[url('/gallery.jpeg')] `}>
+            <div className='absolute top-1/3 text-center w-full z-0'>
+                <h1 className='text-white text-4xl md:text-8xl fontmerienda my-2 md:my-5'>Image Gallery</h1>
+                <p className='text-yellow1 tracking-widest font-medium text-sm md:text-lg'>Get a glimpse of our authentic dishes.</p>
+            </div>
+        </div>
+            {/* <HeroImage url={"https://images.unsplash.com/photo-1522784081430-8ac6a122cbc8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"} title="Image Gallery" subtitle="Get a glimpse of our authentic dishes." /> */}
             <div className='p-10 columns-2 md:columns-3 gap-6 space-y-6'>
                 <img src={fi1} alt="" />
                 <img src={fi2} alt="" />

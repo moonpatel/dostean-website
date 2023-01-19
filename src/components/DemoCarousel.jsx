@@ -14,7 +14,7 @@ const DemoCarousel = () => {
     return (
         <div className='-z-10'>
             <Carousel showThumbs={false} className='-z-10' autoPlay={true} interval={"1000"} infiniteLoop={true}>
-                <div className=" bg-[url('../src/components/images/si1.jpg')] h-[360px] md:h-[640px] bg-top bg-cover"><p className="text-lg font-medium mt-7 ">Welcome to DOSTEAN<sup>n</sup> Cafe</p></div>
+                <div className=" bg-[url('../src/components/images/si1.jpg')] h-[360px] md:h-[640px] bg-top bg-cover"></div>
                 <div className=" bg-[url('../src/components/images/si2.jpg')] h-[360px] md:h-[640px] bg-center bg-cover"></div>
                 <div className=" bg-[url('../src/components/images/si3.jpg')] h-[360px] md:h-[640px] bg-center bg-cover"></div>
                 <div className=" bg-[url('../src/components/images/si4.jpg')] h-[360px] md:h-[640px] bg-center bg-cover"></div>

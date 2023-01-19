@@ -9,10 +9,13 @@ import { AnimationOnScroll } from "react-animation-on-scroll";
 import CafeImage from "../images/i2.jpg";
 
 export default function Middle() {
+    const width = window.innerWidth;
+    const height = window.innerHeight;
+    console.log(width,'dfgds')
     return (
-        <div className="section">
+        <div style={{width}}>
             <DemoCarousel />
-            <br />
+            <div className="h-10"></div>
             <div className="flex flex-col-reverse md:flex-row text-center mt-5 md:pl-20 w-full justify-start md:items-center relative md:h-[500px]">
                 <div className="md:bg-primary-300 md:w-1/2 md:mx-10 -z-10 relative order-2 md:order-1">
                     <img src={CafeImage} alt="cafeimg" className="md:w-full shadow-lg" />

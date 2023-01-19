@@ -1,6 +1,6 @@
 /** @format */
 
-import React from 'react'
+import React, { useLayoutEffect } from 'react'
 import { NavLink, Route, Routes } from 'react-router-dom'
 import Navbar from './home_component/Navbar'
 import { dishes } from '../menu.json'
@@ -34,6 +34,9 @@ for (let i=0; i<dishes.length ; i++ ) {
 console.log(allDishes);
 
 const Menu = () => {
+    useLayoutEffect(() => {
+        window.scrollTo(0, 0)
+    });
     const activeStateFunction = ({ isActive }) => {
         return isActive
             ? 'bg-yellow1 scale-[1.12] -z-10 rounded transition-all duration-300'
@@ -42,7 +45,13 @@ const Menu = () => {
     return (
         <>
             <Navbar />
-            <HeroImage url="" title="Our Menu" subtitle="Savour your mouth with our delicious dishes." />
+            <div className={`bg-blend-multiply bg-black/50 relative w-full h-[360px] md:h-[480px] bg-center bg-cover -z-10 bg-[url('/menu.jpg')] `}>
+            <div className='absolute top-1/3 text-center w-full z-0'>
+                <h1 className='text-white text-4xl md:text-8xl fontmerienda my-2 md:my-5'>Our Menu</h1>
+                <p className='text-yellow1 tracking-widest font-medium text-sm md:text-lg'>Savour your mouth with our delicious dishes.</p>
+            </div>
+        </div>
+            {/* <HeroImage url="" title="Our Menu" subtitle="Savour your mouth with our delicious dishes." /> */}
             {/* <div className='h-32'></div> */}
             {/* <h1 className='text-4xl text-center my-5'>Our Menu</h1> */}
             <div className='mb-32 mt-10'>
