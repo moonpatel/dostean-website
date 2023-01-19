@@ -1,11 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import DemoCarousel from "../DemoCarousel";
-import CafeImage from "../images/i2.jpg";
+
 import LocationDetails from "../LocationDetails";
 import MenuDisplay from "../MenuDisplay";
 import "animate.css/animate.min.css";
-import { AnimationOnScroll } from 'react-animation-on-scroll';
+import { AnimationOnScroll } from "react-animation-on-scroll";
+import CafeImage from "../images/i2.jpg";
 
 export default function Middle() {
     return (
@@ -108,6 +109,6 @@ export default function Middle() {
                 </AnimationOnScroll>
             </div>
             <LocationDetails />
-        </div>
-    )
+    </div>
+  );
 }
