@@ -13,7 +13,7 @@ import s8 from "../components/images/si7.jpg";
 const DemoCarousel = () => {
     return (
         <div className='-z-10'>
-            <Carousel showThumbs={false} className='-z-10' autoPlay={true} interval={"1000"} infiniteLoop={true}>
+            <Carousel showThumbs={false} className='-z-10' autoPlay={true} interval={"1500"} infiniteLoop={true}>
                 <div className=" bg-[url('../src/components/images/si1.jpg')] h-[360px] md:h-[640px] bg-top bg-cover"></div>
                 <div className=" bg-[url('../src/components/images/si2.jpg')] h-[360px] md:h-[640px] bg-center bg-cover"></div>
                 <div className=" bg-[url('../src/components/images/si3.jpg')] h-[360px] md:h-[640px] bg-center bg-cover"></div>
@@ -21,10 +21,9 @@ const DemoCarousel = () => {
                 <div className=" bg-[url('../src/components/images/si5.jpg')] h-[360px] md:h-[640px] bg-center bg-cover"></div>
                 <div className=" bg-[url('../src/components/images/si6.jpg')] h-[360px] md:h-[640px] bg-center bg-cover"></div>
                 <div className=" bg-[url('../src/components/images/si7.jpg')] h-[360px] md:h-[640px] bg-center bg-cover"></div>
-                <div className=" bg-[url('../src/components/images/si8.jpg')] h-[360px] md:h-[640px] bg-center bg-cover"></div>
             </Carousel>
         </div>
-    )
+    );
 }
 
 export default DemoCarousel

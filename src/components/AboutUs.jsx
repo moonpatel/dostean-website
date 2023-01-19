@@ -5,6 +5,8 @@ import lp from "../components/images/lp.jpeg";
 import HeroImage from "./HeroImage";
 import v1 from '../../src/components/images/v1.mp4'
 import v2 from '../../src/components/images/v2.mp4'
+import v3 from '../../src/components/images/v3.mp4'
+import v4 from '../../src/components/images/v4.mp4'
 import Footer from "./home_component/Footer";
 
 const AboutUs = () => {
@@ -56,22 +58,22 @@ const AboutUs = () => {
                         <span className="fontmerienda font-bold text-xl md:text-3xl"> celebrities </span>
                         that comes to DOSTEA<sup>n</sup> Cafe and enjoy the delasious items.
                     </div>
-                    <div className="video flex flex-col md:flex-row md:space-x-20 md:space-y-0 space-y-10 mt-4 justify-center">
-                        <video src={v1} onClick={evt => {
+                    <div className="video flex flex-col flex-wrap md:flex-row gap-16 mt-4 justify-center">
+                        <video width={480} src={v1} onClick={evt => {
                             v1play ? evt.target.pause() : evt.target.play()
                             setv1Play(prev => !prev);
                         }} controls></video>
-                        <video src={v2} onClick={evt => {
+                        <video width={480} src={v2} onClick={evt => {
                             v2play ? evt.target.pause() : evt.target.play()
                             setv2Play(prev => !prev);
 
                         }} controls></video>
-                        <video src={v3} onClick={evt => {
+                        <video width={480} src={v3} onClick={evt => {
                             v3play ? evt.target.pause() : evt.target.play()
                             setv3Play(prev => !prev);
 
                         }} controls></video>
-                        <video src={v4} onClick={evt => {
+                        <video width={480} src={v4} onClick={evt => {
                             v4play ? evt.target.pause() : evt.target.play()
                             setv4Play(prev => !prev);
 
