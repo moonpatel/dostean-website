@@ -631,7 +631,7 @@
                     "desc": "Nachos stuff with two type of cheese sauce"
                 },
                 {
-                    "name": "Cottage cheese taxo",
+                    "name": "Cottage cheese taxo nachos",
                     "price": "249",
                     "desc": "Nachos served with Cottage cheese guacamole"
                 },
@@ -654,6 +654,11 @@
                     "name": "Green Manchurian ",
                     "price": "189",
                     "desc": "Vegetable balls toasted with cheese spinach "
+                },
+                {
+                    "name": "Gravy Manchurian",
+                    "price": "199",
+                    "desc": "Vegetable balls served with classic Manchurian gravy"
                 },
                 {
                     "name": "Paneer Chilly ",

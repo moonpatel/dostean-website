@@ -21,7 +21,7 @@ export default function Middle() {
                         <p className="font-bold text-3xl my-3 md:px-3 text-black fontmerienda mt-5 md:mt-16 mb-9">Our Journey</p>
                         <p className="text-sm text-black/90 font-medium px-3">
                             Welcome to our restaurant, where a love for good food and a passion for culinary excellence come together.
-                            Our journey started on 15th September,2020 by 3 friends who are tea lovers. We have a simple dream to create a
+                            Our journey started on 15th September, 2020 by 3 friends who are tea lovers. We have a simple dream to create a
                             dining experience that would delight the senses and leave a lasting impression.
                         </p>
                         <a href="/about-us" className="text-yellow1 hover:underline">Learn More</a>
@@ -33,9 +33,18 @@ export default function Middle() {
             <div className="menu my-10 text-center space-y-3 py-3">
                 <h1 className="text-3xl font-bold mb-3 fontmerienda text-red-500 ">Our Special Items</h1>
                 <MenuDisplay />
-                <Link to="/menu" className=" bg-black text-lg font-semibold block mx-auto mt-5 text-white p-2 rounded-lg w-fit text-center">
-                    View Menu
-                </Link>
+            </div>
+
+            <div className="relative h-fit mt-32 mb-48">
+
+                <div className="mx-auto text-white absolute flex flex-col justify-center w-full top-[210px] z-10">
+                    <Link to="/menu" className="fontmerienda text-6xl p-3 font-semibold block mx-auto mt-5 text-white rounded-lg w-fit text-center">
+                        View Full Menu
+                    </Link>
+                    <span className="text-center text-yellow1 leading-10 tracking-widest">Explore our wide range of delicious dishes.</span>
+                </div>
+                <div className=" my-10 h-[480px] w-[110%] -translate-x-10 -rotate-[3deg] bg-[url('../src/components/images/img1.jpeg')] bg-cover bg-center bg-blend-multiply bg-black bg-opacity-[0.55]">
+                </div>
             </div>
 
             <div className="flex text-center justify-center scale-[1.8] md:scale-[2] my-20 mb-32">
