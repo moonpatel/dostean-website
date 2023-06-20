@@ -2,7 +2,7 @@ import { Navigate, Route, Routes } from 'react-router-dom';
 import './App.css'
 import AboutUs from './components/AboutUs.jsx';
 import Gallery from './components/Gallery.jsx';
-import Home from './components/Home.jsx'
+import Home from './components/home.jsx'
 import Menu from './components/Menu.jsx';
 
 
