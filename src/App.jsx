@@ -1,9 +1,9 @@
 import { Navigate, Route, Routes } from 'react-router-dom';
 import './App.css'
-import AboutUs from './components/AboutUs';
-import Gallery from './components/Gallery';
-import Home from './components/Home'
-import Menu from './components/Menu';
+import AboutUs from './components/AboutUs.jsx';
+import Gallery from './components/Gallery.jsx';
+import Home from './components/Home.jsx'
+import Menu from './components/Menu.jsx';
 
 
 function App() {

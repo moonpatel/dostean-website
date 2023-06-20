@@ -1,9 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import DemoCarousel from "../DemoCarousel";
+import DemoCarousel from "../DemoCarousel.jsx";
 
-import LocationDetails from "../LocationDetails";
-import MenuDisplay from "../MenuDisplay";
+import LocationDetails from "../LocationDetails.jsx";
+import MenuDisplay from "../MenuDisplay.jsx";
 import "animate.css/animate.min.css";
 import { AnimationOnScroll } from "react-animation-on-scroll";
 import CafeImage from "../images/i2.jpg";

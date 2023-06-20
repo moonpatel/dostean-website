@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from './home_component/Navbar'
+import Navbar from './home_component/Navbar.jsx'
 import fi1 from "../components/images/fi1.jpeg"
 import fi2 from "../components/images/fi2.jpeg"
 import fi3 from "../components/images/fi3.jpeg"
@@ -16,8 +16,7 @@ import fi13 from "../components/images/sp3.jpg"
 import fi14 from "../components/images/sp4.jpg"
 import fi15 from "../components/images/sp5.jpg"
 import fi16 from "../components/images/sp6.jpg"
-import Footer from './home_component/Footer'
-import HeroImage from './HeroImage'
+import Footer from './home_component/Footer.jsx'
 
 const Gallery = () => {
     return (

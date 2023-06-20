@@ -1,13 +1,12 @@
 import React, { useState } from "react";
-import Navbar from "./home_component/Navbar";
+import Navbar from "./home_component/Navbar.jsx";
 import b1 from "../components/images/si6.jpg";
 import lp from "../components/images/lp.jpeg";
-import HeroImage from "./HeroImage";
 import v1 from '../../src/components/images/v1.mp4'
 import v2 from '../../src/components/images/v2.mp4'
 import v3 from '../../src/components/images/v3.mp4'
 import v4 from '../../src/components/images/v4.mp4'
-import Footer from "./home_component/Footer";
+import Footer from "./home_component/Footer.jsx";
 
 const AboutUs = () => {
     const [v1play, setv1Play] = useState(false)

@@ -2,10 +2,10 @@
 
 import React, { useLayoutEffect } from 'react'
 import { NavLink, Route, Routes } from 'react-router-dom'
-import Navbar from './home_component/Navbar'
+import Navbar from './home_component/Navbar.jsx'
 import { dishes } from '../menu.json'
-import Dishes from './Dishes'
-import Footer from './home_component/Footer'
+import Dishes from './Dishes.jsx'
+import Footer from './home_component/Footer.jsx'
 import Mocktail from '../svg/mocktail.svg'
 import shake from '../svg/shake.svg'
 import tea from '../svg/tea.svg'
@@ -23,7 +23,6 @@ import pizza from '../svg/pizza.svg'
 import maggie from '../svg/maggie.svg'
 import salad from '../svg/salad.svg'
 import dessert from '../svg/dessert.svg'
-import HeroImage from './HeroImage'
 
 let allDishes = [];
 for (let i=0; i<dishes.length ; i++ ) {
